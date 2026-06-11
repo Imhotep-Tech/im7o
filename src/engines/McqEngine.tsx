@@ -50,6 +50,7 @@ export default function TurnBasedEngine({ config }: GameProps) {
   const [activeEntityIndex, setActiveEntityIndex] = useState(0);
   const [showInstructions, setShowInstructions] = useState(false);
   const [customTimer, setCustomTimer] = useState(config.defaultTimerSeconds || 30);
+  const [showAnswer, setShowAnswer] = useState(false);
 
   const turnStrategy = config.turnStrategy || "sequential";
 
@@ -99,10 +100,11 @@ export default function TurnBasedEngine({ config }: GameProps) {
     updatedEntities[entityIdx].score += 1;
     setEntities(updatedEntities);
     setCurrentCardIndex(prev => prev + 1);
+    setShowAnswer(false);
   };
 
   const skipCard = () => {
-    setCurrentCardIndex(prev => prev + 1);
+    nextTurn(entities);
   };
 
   const passTurn = () => {
@@ -281,10 +283,23 @@ export default function TurnBasedEngine({ config }: GameProps) {
             >
               <div className="absolute top-0 right-0 w-48 h-48 bg-white/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:scale-110 transition-transform duration-700"></div>
               <div className="absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 group-hover:scale-110 transition-transform duration-700"></div>
-              <p className="text-3xl md:text-4xl font-bold text-white leading-tight drop-shadow-lg z-10">
-                {typeof deck[currentCardIndex] === 'string' ? deck[currentCardIndex] : (deck[currentCardIndex]?.question || '')}
-              </p>
+              {showAnswer ? (
+                <div className="z-10 flex flex-col gap-6">
+                   <p className="text-xl font-medium text-slate-400 drop-shadow-lg opacity-80">{deck[currentCardIndex]?.question}</p>
+                   <p className="text-4xl md:text-5xl font-black text-emerald-400 leading-tight drop-shadow-lg">{deck[currentCardIndex]?.answer}</p>
+                </div>
+              ) : (
+                <p className="text-3xl md:text-4xl font-bold text-white leading-tight drop-shadow-lg z-10">
+                  {typeof deck[currentCardIndex] === 'string' ? deck[currentCardIndex] : (deck[currentCardIndex]?.question || '')}
+                </p>
+              )}
             </div>
+            
+            {!showAnswer && (
+               <button onClick={() => setShowAnswer(true)} className="w-full max-w-sm py-4 rounded-xl text-white font-bold text-xl shadow-lg border-b-4 active:border-b-0 active:translate-y-1 transition-all" style={{ backgroundColor: config.themeColor, borderColor: '#00000050' }}>
+                 إظهار الإجابة
+               </button>
+            )}
 
             {config.hasTimer && (
               <Timer defaultSeconds={customTimer} themeColor={config.themeColor} />

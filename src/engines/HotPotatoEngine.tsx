@@ -18,7 +18,7 @@ export default function HotPotatoEngine({ config }: any) {
   const [showOverlay, setShowOverlay] = useState(true);
   const [setupPhase, setSetupPhase] = useState(true);
   const [entities, setEntities] = useState<any[]>([]);
-  const [deck, setDeck] = useState<string[]>([]);
+  const [deck, setDeck] = useState<any[]>([]);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [activeEntityIndex, setActiveEntityIndex] = useState(0);
   
@@ -165,7 +165,7 @@ export default function HotPotatoEngine({ config }: any) {
             </div>
             
             <div className="w-full bg-slate-900 border-2 rounded-[3rem] p-10 min-h-[300px] flex items-center justify-center text-center shadow-2xl relative" style={{ borderColor: `${config.themeColor}50`, boxShadow: `0 20px 40px -10px ${config.themeColor}30` }}>
-               <p className="text-4xl md:text-5xl font-bold text-white leading-tight z-10 drop-shadow-lg">{deck[currentCardIndex]}</p>
+               <p className="text-4xl md:text-5xl font-bold text-white leading-tight z-10 drop-shadow-lg">{typeof deck[currentCardIndex] === 'string' ? deck[currentCardIndex] : (deck[currentCardIndex]?.question || '')}</p>
             </div>
 
             <button onClick={passPhone} className="w-full py-6 rounded-3xl text-white font-bold text-3xl border-b-8 active:border-b-0 active:translate-y-2 transition-all mt-4 shadow-xl" style={{ backgroundColor: '#10B981', borderColor: '#059669', boxShadow: '0 10px 25px -5px rgba(16, 185, 129, 0.4)' }}>

@@ -18,8 +18,9 @@ export default function CreatorDashboard() {
   const [defaultTimerSeconds, setDefaultTimerSeconds] = useState(60);
   const [isTimerCustomizable, setIsTimerCustomizable] = useState(true);
   const [allowElimination, setAllowElimination] = useState(true);
+  const [turnStrategy, setTurnStrategy] = useState('sequential');
   const [instructions, setInstructions] = useState('');
-  const [cards, setCards] = useState<string[]>(['']);
+  const [cards, setCards] = useState<any[]>(['']);
 
   useEffect(() => {
     fetch('http://localhost:8000/api/creator/submissions', { credentials: 'include' })
@@ -42,12 +43,22 @@ export default function CreatorDashboard() {
       .catch(() => {});
   }, []);
 
-  const handleAddCard = () => setCards([...cards, '']);
+  const handleAddCard = () => {
+    if (engineTemplate === 'mcq') setCards([...cards, { question: '', answer: '' }]);
+    else if (engineTemplate === 'taboo') setCards([...cards, { word: '', forbidden: '' }]);
+    else setCards([...cards, '']);
+  };
   const handleRemoveCard = (idx: number) => {
     const newCards = cards.filter((_, i) => i !== idx);
-    setCards(newCards.length ? newCards : ['']);
+    if (!newCards.length) {
+      if (engineTemplate === 'mcq') setCards([{ question: '', answer: '' }]);
+      else if (engineTemplate === 'taboo') setCards([{ word: '', forbidden: '' }]);
+      else setCards(['']);
+    } else {
+      setCards(newCards);
+    }
   };
-  const handleCardChange = (idx: number, val: string) => {
+  const handleCardChange = (idx: number, val: any) => {
     const newCards = [...cards];
     newCards[idx] = val;
     setCards(newCards);
@@ -55,7 +66,11 @@ export default function CreatorDashboard() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const filteredCards = cards.filter(c => c.trim() !== '');
+    const filteredCards = cards.filter((c: any) => {
+      if (engineTemplate === 'mcq') return c?.question?.trim() && c?.answer?.trim();
+      if (engineTemplate === 'taboo') return c?.word?.trim() && c?.forbidden?.trim();
+      return typeof c === 'string' && c.trim() !== '';
+    });
     
     // Generate a simple ID from packName
     const safeId = packName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '') || 'custom-game';
@@ -72,6 +87,7 @@ export default function CreatorDashboard() {
       defaultTimerSeconds: Number(defaultTimerSeconds),
       isTimerCustomizable,
       allowElimination,
+      turnStrategy,
       instructions,
       cards: filteredCards
     };
@@ -172,7 +188,10 @@ export default function CreatorDashboard() {
                     <label className="block text-sm font-medium text-slate-400 mb-2">نوع المحرك (Engine Template)</label>
                     <select value={engineTemplate} onChange={e => setEngineTemplate(e.target.value)} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition">
                       <option value="hot-potato">البطاطس الساخنة (Hot Potato)</option>
-                      <option value="classic">كلاسيكي (Classic)</option>
+                      <option value="classic">كلاسيكي دوري (Classic)</option>
+                      <option value="mcq">سؤال وجواب (MCQ/Trivia)</option>
+                      <option value="taboo">كلمات ممنوعة (Taboo)</option>
+                      <option value="imposter">الجاسوس (Spy/Imposter)</option>
                     </select>
                   </div>
                   <div>
@@ -239,6 +258,16 @@ export default function CreatorDashboard() {
                     <div className="w-11 h-6 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-500"></div>
                   </label>
                 </div>
+
+                {['classic', 'mcq', 'taboo'].includes(engineTemplate) && (
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 bg-slate-900 rounded-lg border border-slate-800 gap-4">
+                    <span className="text-slate-300 font-medium">نظام الإجابة (Turn Strategy)</span>
+                    <select value={turnStrategy} onChange={e => setTurnStrategy(e.target.value)} className="p-3 w-full sm:w-auto bg-slate-950 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition">
+                      <option value="sequential">بالدور (شخص/فريق محدد يجيب)</option>
+                      <option value="open">مفتوح (الأسرع يجيب ويأخذ النقطة)</option>
+                    </select>
+                  </div>
+                )}
               </div>
 
               {/* Cards Builder */}
@@ -249,11 +278,27 @@ export default function CreatorDashboard() {
                 </div>
                 
                 <div className="space-y-3">
-                  {cards.map((card, idx) => (
-                    <div key={idx} className="flex items-center gap-3">
-                      <span className="text-slate-500 font-mono w-6 text-center">{idx + 1}</span>
-                      <input type="text" value={card} onChange={e => handleCardChange(idx, e.target.value)} className="flex-1 p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" placeholder="اكتب نص التحدي أو البطاقة..." required />
-                      <button type="button" onClick={() => handleRemoveCard(idx)} className="p-3 bg-rose-500/10 text-rose-400 hover:bg-rose-500 hover:text-white rounded-xl transition" title="حذف البطاقة">
+                  {cards.map((card: any, idx) => (
+                    <div key={idx} className="flex flex-col sm:flex-row items-start sm:items-center gap-3 bg-slate-900/50 p-3 rounded-xl border border-slate-800">
+                      <span className="text-slate-500 font-mono w-6 text-center pt-3 sm:pt-0">{idx + 1}</span>
+                      
+                      {engineTemplate === 'mcq' ? (
+                        <div className="flex-1 flex flex-col sm:flex-row gap-3 w-full">
+                           <input type="text" value={card?.question || ''} onChange={e => handleCardChange(idx, { ...card, question: e.target.value })} className="flex-1 p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" placeholder="اكتب السؤال هنا..." required />
+                           <input type="text" value={card?.answer || ''} onChange={e => handleCardChange(idx, { ...card, answer: e.target.value })} className="flex-1 p-3 bg-slate-900 border border-emerald-700/50 rounded-xl text-emerald-100 focus:ring-2 focus:ring-emerald-500 outline-none transition" placeholder="الإجابة الصحيحة..." required />
+                        </div>
+                      ) : engineTemplate === 'taboo' ? (
+                        <div className="flex-1 flex flex-col gap-3 w-full">
+                           <input type="text" value={card?.word || ''} onChange={e => handleCardChange(idx, { ...card, word: e.target.value })} className="w-full p-3 bg-slate-900 border border-indigo-700/50 rounded-xl text-indigo-100 focus:ring-2 focus:ring-indigo-500 outline-none transition" placeholder="الكلمة الرئيسية (التي يجب حزرها)" required />
+                           <input type="text" value={card?.forbidden || ''} onChange={e => handleCardChange(idx, { ...card, forbidden: e.target.value })} className="w-full p-3 bg-slate-900 border border-rose-700/50 rounded-xl text-rose-100 focus:ring-2 focus:ring-rose-500 outline-none transition" placeholder="الكلمات الممنوعة (افصل بينها بفاصلة ,)" required />
+                        </div>
+                      ) : engineTemplate === 'imposter' ? (
+                        <input type="text" value={typeof card === 'string' ? card : card?.word || ''} onChange={e => handleCardChange(idx, e.target.value)} className="flex-1 p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition w-full" placeholder="اكتب اسم مكان أو كلمة السر..." required />
+                      ) : (
+                        <input type="text" value={typeof card === 'string' ? card : card?.question || ''} onChange={e => handleCardChange(idx, e.target.value)} className="flex-1 p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition w-full" placeholder="اكتب نص التحدي أو البطاقة..." required />
+                      )}
+                      
+                      <button type="button" onClick={() => handleRemoveCard(idx)} className="p-3 bg-rose-500/10 text-rose-400 hover:bg-rose-500 hover:text-white rounded-xl transition sm:self-auto self-end mt-2 sm:mt-0" title="حذف البطاقة">
                         <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>
                       </button>
                     </div>

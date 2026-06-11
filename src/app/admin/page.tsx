@@ -11,6 +11,7 @@ export default function AdminDashboard() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedSub, setSelectedSub] = useState<any>(null);
   const [payloadObj, setPayloadObj] = useState<any>(null);
+  const [previewCardIndex, setPreviewCardIndex] = useState(0);
 
   useEffect(() => {
     fetch('http://localhost:8000/api/admin/data', { credentials: 'include' })
@@ -32,6 +33,7 @@ export default function AdminDashboard() {
   const openModal = (sub: any) => {
     setSelectedSub(sub);
     setPayloadObj(JSON.parse(sub.json_payload));
+    setPreviewCardIndex(0);
     setModalOpen(true);
   };
 
@@ -208,6 +210,9 @@ export default function AdminDashboard() {
                   </>
                 )}
                 <div><span className="block text-sm text-slate-500 mb-1">نظام الإقصاء مفعل؟</span><div className="font-medium text-white">{payloadObj?.allowElimination ? 'نعم' : 'لا'}</div></div>
+                {payloadObj?.turnStrategy && (
+                  <div><span className="block text-sm text-slate-500 mb-1">استراتيجية الإجابة</span><div className="font-medium text-white">{payloadObj.turnStrategy === 'open' ? 'مفتوح (الأسرع)' : 'بالدور (تسلسلي)'}</div></div>
+                )}
                 <div className="col-span-1 sm:col-span-2">
                   <span className="block text-sm text-slate-500 mb-1">الإرشادات</span>
                   <div className="p-4 bg-slate-900 rounded-xl whitespace-pre-wrap">{payloadObj?.instructions || '-'}</div>
@@ -216,12 +221,42 @@ export default function AdminDashboard() {
             </div>
             
             <div className="mb-8">
-              <h4 className="font-semibold mb-4 text-slate-300">معاينة الواجهة (البطاقة الأولى)</h4>
-              <div className="p-10 bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-2xl border border-indigo-500/20 flex items-center justify-center min-h-[250px]">
-                <div className="bg-white p-8 rounded-2xl shadow-2xl max-w-sm text-center transform rotate-2 hover:rotate-0 transition duration-300">
-                  <p className="text-2xl font-black text-slate-800 font-cairo">
-                    {payloadObj?.cards?.length > 0 ? payloadObj.cards[0] : "لا يوجد بطاقات."}
-                  </p>
+              <div className="flex justify-between items-center mb-4">
+                <h4 className="font-semibold text-slate-300">معاينة البطاقات ({payloadObj?.cards?.length > 0 ? previewCardIndex + 1 : 0} / {payloadObj?.cards?.length || 0})</h4>
+                <div className="flex gap-2" dir="ltr">
+                  <button onClick={() => setPreviewCardIndex(Math.max(0, previewCardIndex - 1))} disabled={previewCardIndex === 0} className="px-4 py-1.5 bg-slate-800 text-slate-300 rounded-lg hover:bg-slate-700 disabled:opacity-50 font-medium transition">السابق</button>
+                  <button onClick={() => setPreviewCardIndex(Math.min((payloadObj?.cards?.length || 1) - 1, previewCardIndex + 1))} disabled={!payloadObj?.cards?.length || previewCardIndex >= payloadObj.cards.length - 1} className="px-4 py-1.5 bg-slate-800 text-slate-300 rounded-lg hover:bg-slate-700 disabled:opacity-50 font-medium transition">التالي</button>
+                </div>
+              </div>
+              <div className="p-10 bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-2xl border border-indigo-500/20 flex flex-col items-center justify-center min-h-[250px]">
+                <div className="bg-white p-8 rounded-2xl shadow-2xl max-w-sm w-full text-center transform rotate-1 transition duration-300">
+                  {payloadObj?.cards?.length > 0 ? (
+                    <>
+                      <p className="text-2xl font-black text-slate-800 font-cairo">
+                        {typeof payloadObj.cards[previewCardIndex] === 'string' 
+                          ? payloadObj.cards[previewCardIndex] 
+                          : payloadObj.cards[previewCardIndex]?.word || payloadObj.cards[previewCardIndex]?.question || "بطاقة فارغة"}
+                      </p>
+                      {typeof payloadObj.cards[previewCardIndex] === 'object' && payloadObj.cards[previewCardIndex]?.answer && (
+                        <div className="mt-6 pt-4 border-t border-slate-200 w-full text-center">
+                          <span className="text-sm font-bold text-slate-400 block mb-1">الإجابة:</span>
+                          <p className="text-xl font-bold text-emerald-600">{payloadObj.cards[previewCardIndex].answer}</p>
+                        </div>
+                      )}
+                      {typeof payloadObj.cards[previewCardIndex] === 'object' && payloadObj.cards[previewCardIndex]?.forbidden && (
+                        <div className="mt-6 pt-4 border-t border-slate-200 w-full text-center">
+                          <span className="text-sm font-bold text-slate-400 block mb-2">كلمات ممنوعة:</span>
+                          <div className="flex flex-wrap gap-2 justify-center">
+                            {payloadObj.cards[previewCardIndex].forbidden.split(',').map((w: string, i: number) => (
+                              <span key={i} className="px-3 py-1 bg-rose-100 text-rose-700 font-bold rounded-full text-sm">{w.trim()}</span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    <p className="text-slate-500 font-medium">لا يوجد بطاقات.</p>
+                  )}
                 </div>
               </div>
             </div>

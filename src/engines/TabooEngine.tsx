@@ -41,7 +41,7 @@ interface GameProps {
   };
 }
 
-export default function TurnBasedEngine({ config }: GameProps) {
+export default function TabooEngine({ config }: GameProps) {
   const [showOverlay, setShowOverlay] = useState(true);
   const [setupPhase, setSetupPhase] = useState(true);
   const [entities, setEntities] = useState<Entity[]>([]);
@@ -281,9 +281,24 @@ export default function TurnBasedEngine({ config }: GameProps) {
             >
               <div className="absolute top-0 right-0 w-48 h-48 bg-white/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:scale-110 transition-transform duration-700"></div>
               <div className="absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 group-hover:scale-110 transition-transform duration-700"></div>
-              <p className="text-3xl md:text-4xl font-bold text-white leading-tight drop-shadow-lg z-10">
-                {typeof deck[currentCardIndex] === 'string' ? deck[currentCardIndex] : (deck[currentCardIndex]?.question || '')}
-              </p>
+              <div className="z-10 flex flex-col gap-6 w-full text-center">
+                <p className="text-4xl md:text-5xl font-black text-white leading-tight drop-shadow-lg">
+                  {typeof deck[currentCardIndex] === 'string' ? deck[currentCardIndex] : (deck[currentCardIndex]?.word || '')}
+                </p>
+                
+                {typeof deck[currentCardIndex] === 'object' && deck[currentCardIndex]?.forbidden && (
+                  <div className="mt-4 pt-4 border-t border-white/10 w-full flex flex-col items-center gap-3">
+                    <span className="text-xs font-bold text-rose-400 uppercase tracking-widest bg-rose-500/10 px-3 py-1 rounded-full">كلمات ممنوعة</span>
+                    <div className="flex flex-col gap-2 w-full max-w-[80%]">
+                      {deck[currentCardIndex].forbidden.split(',').map((w: string, i: number) => (
+                        <div key={i} className="text-lg md:text-xl font-bold text-rose-300 bg-rose-500/20 py-2 rounded-xl backdrop-blur-sm border border-rose-500/30">
+                          {w.trim()}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
 
             {config.hasTimer && (
