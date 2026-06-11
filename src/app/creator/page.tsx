@@ -193,8 +193,8 @@ export default function CreatorDashboard() {
                     </div>
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-slate-400 mb-2">الأيقونة (Logo)</label>
-                    <input type="text" value={logo} onChange={e => setLogo(e.target.value)} placeholder="مثال: bomb" className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" />
+                    <label className="block text-sm font-medium text-slate-400 mb-2">الأيقونة (إيموجي)</label>
+                    <input type="text" value={logo} onChange={e => setLogo(e.target.value)} placeholder="مثال: 💣 (اضغط Win + . لإظهار الإيموجي)" maxLength={5} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white text-2xl text-center focus:ring-2 focus:ring-indigo-500 outline-none transition" />
                   </div>
                 </div>
                 

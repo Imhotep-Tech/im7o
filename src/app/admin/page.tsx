@@ -185,8 +185,34 @@ export default function AdminDashboard() {
               </button>
             </div>
             
-            <div className="mb-8 bg-slate-950 border border-slate-800 p-4 rounded-xl overflow-x-auto">
-              <pre className="text-sm text-indigo-300" dir="ltr">{JSON.stringify(payloadObj, null, 2)}</pre>
+            <div className="mb-8 bg-slate-950 border border-slate-800 p-6 rounded-2xl">
+              <h4 className="text-xl font-bold mb-6 text-indigo-400 border-b border-slate-800 pb-3">إعدادات الحزمة</h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-8 text-slate-300">
+                <div><span className="block text-sm text-slate-500 mb-1">اسم اللعبة</span><div className="font-medium text-white">{payloadObj?.title || '-'}</div></div>
+                <div><span className="block text-sm text-slate-500 mb-1">اسم الصانع</span><div className="font-medium text-white">{payloadObj?.author || '-'}</div></div>
+                <div><span className="block text-sm text-slate-500 mb-1">نوع المحرك</span><div className="font-medium text-white">{payloadObj?.engineTemplate || '-'}</div></div>
+                <div><span className="block text-sm text-slate-500 mb-1">نمط اللعب</span><div className="font-medium text-white">{payloadObj?.mode || '-'}</div></div>
+                <div>
+                  <span className="block text-sm text-slate-500 mb-1">لون السمة</span>
+                  <div className="flex items-center gap-2">
+                    <div className="w-6 h-6 rounded-full border border-slate-700" style={{ backgroundColor: payloadObj?.themeColor }}></div>
+                    <span className="font-mono text-sm">{payloadObj?.themeColor || '-'}</span>
+                  </div>
+                </div>
+                <div><span className="block text-sm text-slate-500 mb-1">الأيقونة (إيموجي)</span><div className="text-2xl">{payloadObj?.logo || '-'}</div></div>
+                <div><span className="block text-sm text-slate-500 mb-1">هل تحتوي على عداد؟</span><div className="font-medium text-white">{payloadObj?.hasTimer ? 'نعم' : 'لا'}</div></div>
+                {payloadObj?.hasTimer && (
+                  <>
+                    <div><span className="block text-sm text-slate-500 mb-1">الوقت الافتراضي</span><div className="font-medium text-white">{payloadObj?.defaultTimerSeconds || '-'} ثانية</div></div>
+                    <div><span className="block text-sm text-slate-500 mb-1">تخصيص الوقت من قبل اللاعبين؟</span><div className="font-medium text-white">{payloadObj?.isTimerCustomizable ? 'نعم' : 'لا'}</div></div>
+                  </>
+                )}
+                <div><span className="block text-sm text-slate-500 mb-1">نظام الإقصاء مفعل؟</span><div className="font-medium text-white">{payloadObj?.allowElimination ? 'نعم' : 'لا'}</div></div>
+                <div className="col-span-1 sm:col-span-2">
+                  <span className="block text-sm text-slate-500 mb-1">الإرشادات</span>
+                  <div className="p-4 bg-slate-900 rounded-xl whitespace-pre-wrap">{payloadObj?.instructions || '-'}</div>
+                </div>
+              </div>
             </div>
             
             <div className="mb-8">
