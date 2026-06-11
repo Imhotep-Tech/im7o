@@ -1,0 +1,15 @@
+{
+  "id": "mcq-test",
+  "title": "MCQ Test",
+  "author": "Karim Bassem",
+  "engineTemplate": "mcq",
+  "mode": "individual",
+  "themeColor": "#ef4444",
+  "logo": "bomb",
+  "hasTimer": true,
+  "defaultTimerSeconds": 60,
+  "isTimerCustomizable": true,
+  "allowElimination": false,
+  "instructions": "",
+  "cardsFile": "mcq-test-cards.json"
+}
