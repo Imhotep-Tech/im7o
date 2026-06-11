@@ -23,8 +23,8 @@ export default function AppSplash({ onComplete }: { onComplete: () => void }) {
     >
       <div className="relative flex flex-col items-center">
         <div className="absolute inset-0 bg-indigo-500/20 blur-3xl rounded-full scale-150 animate-pulse"></div>
-        <div className="relative flex items-center justify-center w-24 h-24 mb-6 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-3xl shadow-2xl shadow-indigo-500/20 animate-bounce">
-          <Sparkles className="w-12 h-12 text-white animate-pulse" />
+        <div className="relative flex items-center justify-center mb-6">
+          <img src="/im7o.png" alt="Im7o Logo" className="w-24 h-24 animate-bounce drop-shadow-[0_0_15px_rgba(99,102,241,0.5)]" />
         </div>
         <h1 className="text-4xl font-black tracking-tight text-white mb-2">إيمحو</h1>
         <p className="text-indigo-400 font-medium tracking-wide">Im7o</p>
