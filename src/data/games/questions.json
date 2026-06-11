@@ -1,0 +1,15 @@
+{
+  "id": "questions",
+  "title": "Questions",
+  "author": "Karim Bassem",
+  "engineTemplate": "classic",
+  "mode": "individual",
+  "themeColor": "#382929",
+  "logo": "🇪🇬",
+  "hasTimer": false,
+  "defaultTimerSeconds": 60,
+  "isTimerCustomizable": true,
+  "allowElimination": false,
+  "instructions": "asl questions and the first one to answer gets the point",
+  "cardsFile": "questions-cards.json"
+}
