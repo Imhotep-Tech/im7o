@@ -1,0 +1,15 @@
+{
+  "id": "kimo-bisso-test",
+  "title": "kimo-bisso test",
+  "author": "Karim Bassem",
+  "engineTemplate": "mcq",
+  "mode": "multi-team",
+  "themeColor": "#896161",
+  "logo": "bomb",
+  "hasTimer": false,
+  "defaultTimerSeconds": 60,
+  "isTimerCustomizable": true,
+  "allowElimination": false,
+  "instructions": "",
+  "cardsFile": "kimo-bisso-test-cards.json"
+}
