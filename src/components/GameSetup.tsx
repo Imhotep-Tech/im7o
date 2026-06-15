@@ -30,6 +30,13 @@ export default function GameSetup({ config, entities, setEntities, customTimer, 
         </div>
 
         <div className="bg-slate-900/80 backdrop-blur-xl border border-slate-800 rounded-[2.5rem] p-8 shadow-2xl">
+          <div className="mb-8 p-6 bg-slate-950 rounded-2xl border border-slate-800">
+            <h3 className="text-lg font-bold text-slate-300 mb-3">كيف تلعب؟ (تعليمات اللعبة)</h3>
+            <p className="text-slate-400 leading-relaxed whitespace-pre-line">
+              {config.instructions || "لا توجد تعليمات مخصصة لهذه اللعبة."}
+            </p>
+          </div>
+
           <h2 className="text-2xl font-bold text-slate-200 mb-8 flex items-center gap-3">
             <Users className="w-6 h-6 text-indigo-400" /> إعداد {config.mode === 'individual' ? 'اللاعبين' : 'الفرق'}
           </h2>
