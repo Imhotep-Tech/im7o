@@ -8,11 +8,16 @@ import GameOverlay from "@/components/GameOverlay";
 import GameSetup from "@/components/GameSetup";
 import GameOver from "@/components/GameOver";
 import { shuffleArray } from "@/utils/gameUtils";
+import { GameProps } from "@/utils/gameUtils";
 
-export default function HotPotatoEngine({ config }: any) {
+export default function HotPotatoEngine({ config }: GameProps) {
   const [showOverlay, setShowOverlay] = useState(true);
   const [setupPhase, setSetupPhase] = useState(true);
-  const [entities, setEntities] = useState<any[]>([]);
+  const [entities, setEntities] = useState<any[]>([
+    { id: "e1", name: "فريق 1", score: 0, isEliminated: false },
+    { id: "e2", name: "فريق 2", score: 0, isEliminated: false }
+  ]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [deck, setDeck] = useState<any[]>([]);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [activeEntityIndex, setActiveEntityIndex] = useState(0);
@@ -25,12 +30,15 @@ export default function HotPotatoEngine({ config }: any) {
 
   useEffect(() => {
     const t = setTimeout(() => setShowOverlay(false), 2000);
-    setEntities([
-      { id: "e1", name: "فريق 1", score: 0, isEliminated: false },
-      { id: "e2", name: "فريق 2", score: 0, isEliminated: false }
-    ]);
     return () => clearTimeout(t);
   }, []);
+
+  const handleExplosion = () => {
+    setRoundOver(true);
+    const updatedEntities = [...entities];
+    updatedEntities[activeEntityIndex].isEliminated = true;
+    setEntities(updatedEntities);
+  };
 
   useEffect(() => {
     let interval: NodeJS.Timeout;
@@ -39,10 +47,12 @@ export default function HotPotatoEngine({ config }: any) {
         setTimeLeft((prev: number) => prev - 1);
       }, 1000);
     } else if (isRoundActive && timeLeft <= 0) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setIsRoundActive(false);
       handleExplosion();
     }
     return () => clearInterval(interval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isRoundActive, timeLeft]);
 
   const startGame = () => {
@@ -57,13 +67,6 @@ export default function HotPotatoEngine({ config }: any) {
   const startRound = () => {
     setIsRoundActive(true);
     setRoundOver(false);
-  };
-
-  const handleExplosion = () => {
-    setRoundOver(true);
-    const updatedEntities = [...entities];
-    updatedEntities[activeEntityIndex].isEliminated = true;
-    setEntities(updatedEntities);
   };
 
   const passPhone = () => {

@@ -8,11 +8,16 @@ import Timer from "@/components/Timer";
 import GameOverlay from "@/components/GameOverlay";
 import GameSetup from "@/components/GameSetup";
 import GameOver from "@/components/GameOver"; // Assuming game over might be used if they add scores, but not used now in this specific flow
+import { GameProps } from "@/utils/gameUtils";
 
-export default function ImposterEngine({ config }: any) {
+export default function ImposterEngine({ config }: GameProps) {
   const [showOverlay, setShowOverlay] = useState(true);
   const [setupPhase, setSetupPhase] = useState(true);
-  const [entities, setEntities] = useState<any[]>([]);
+  const [entities, setEntities] = useState<any[]>([
+    { id: "e1", name: "اللاعب 1" },
+    { id: "e2", name: "اللاعب 2" },
+    { id: "e3", name: "اللاعب 3" }
+  ]);
   
   const [secretWord, setSecretWord] = useState<string>("");
   const [spyId, setSpyId] = useState<string>("");
@@ -25,11 +30,6 @@ export default function ImposterEngine({ config }: any) {
 
   useEffect(() => {
     const t = setTimeout(() => setShowOverlay(false), 2000);
-    setEntities([
-      { id: "e1", name: "اللاعب 1" },
-      { id: "e2", name: "اللاعب 2" },
-      { id: "e3", name: "اللاعب 3" }
-    ]);
     return () => clearTimeout(t);
   }, []);
 

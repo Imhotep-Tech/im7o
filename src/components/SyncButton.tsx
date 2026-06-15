@@ -1,15 +1,14 @@
 "use client";
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { RefreshCw, WifiOff } from "lucide-react";
 
 export default function SyncButton() {
-  const router = useRouter();
   const [isOffline, setIsOffline] = useState(false);
   const [isSyncing, setIsSyncing] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     setMounted(true);
     setIsOffline(!navigator.onLine);
     const handleOnline = () => setIsOffline(false);

@@ -9,6 +9,7 @@ import BaseEngineLayout from "@/components/BaseEngineLayout";
 export default function McqEngine({ config }: GameProps) {
   const engineState = useGameEngine(config);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [prevCardIndex, setPrevCardIndex] = useState(0);
 
   const {
     entities,
@@ -24,9 +25,10 @@ export default function McqEngine({ config }: GameProps) {
     eliminateActive
   } = engineState;
 
-  useEffect(() => {
+  if (currentCardIndex !== prevCardIndex) {
+    setPrevCardIndex(currentCardIndex);
     setShowAnswer(false);
-  }, [currentCardIndex]);
+  }
 
   return (
     <BaseEngineLayout config={config} engineState={engineState}>

@@ -16,6 +16,7 @@ export interface GameConfig {
   themeColor: string;
   logo: string;
   instructions: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   cards: any[];
   turnStrategy?: "sequential" | "open";
   allowPass?: boolean;

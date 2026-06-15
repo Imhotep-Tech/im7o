@@ -4,7 +4,20 @@ import { Entity, shuffleArray, GameConfig } from "../utils/gameUtils";
 export function useGameEngine(config: GameConfig) {
   const [showOverlay, setShowOverlay] = useState(true);
   const [setupPhase, setSetupPhase] = useState(true);
-  const [entities, setEntities] = useState<Entity[]>([]);
+  const [entities, setEntities] = useState<Entity[]>(() => {
+    if (config.mode === "two-team") {
+      return [
+        { id: "t1", name: "الفريق الأول", score: 0, isEliminated: false },
+        { id: "t2", name: "الفريق الثاني", score: 0, isEliminated: false }
+      ];
+    } else {
+      return [
+        { id: "e1", name: config.mode === "individual" ? "اللاعب 1" : "الفريق 1", score: 0, isEliminated: false },
+        { id: "e2", name: config.mode === "individual" ? "اللاعب 2" : "الفريق 2", score: 0, isEliminated: false }
+      ];
+    }
+  });
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [deck, setDeck] = useState<any[]>([]);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [activeEntityIndex, setActiveEntityIndex] = useState(0);
@@ -15,21 +28,8 @@ export function useGameEngine(config: GameConfig) {
 
   useEffect(() => {
     const t = setTimeout(() => setShowOverlay(false), 2000);
-    
-    if (config.mode === "two-team") {
-      setEntities([
-        { id: "t1", name: "الفريق الأول", score: 0, isEliminated: false },
-        { id: "t2", name: "الفريق الثاني", score: 0, isEliminated: false }
-      ]);
-    } else {
-      setEntities([
-        { id: "e1", name: config.mode === "individual" ? "اللاعب 1" : "الفريق 1", score: 0, isEliminated: false },
-        { id: "e2", name: config.mode === "individual" ? "اللاعب 2" : "الفريق 2", score: 0, isEliminated: false }
-      ]);
-    }
-    
     return () => clearTimeout(t);
-  }, [config.mode]);
+  }, []);
 
   const startGame = () => {
     if (entities.filter(e => e.name.trim() !== "").length < 2) return;

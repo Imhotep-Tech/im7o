@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export default function PortalNav() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [user, setUser] = useState<any>(null);
   
   useEffect(() => {
@@ -27,7 +29,7 @@ export default function PortalNav() {
         {user ? (
           <>
             <span className="text-slate-300">مرحباً، {user.name}</span>
-            {user.is_admin && <a href="/admin" className="text-indigo-400 hover:text-indigo-300 transition text-sm font-bold">لوحة الإدارة</a>}
+            {user.is_admin && <Link href="/admin" className="text-indigo-400 hover:text-indigo-300 transition text-sm font-bold">لوحة الإدارة</Link>}
             <a href="http://localhost:8000/api/auth/logout" className="text-rose-400 hover:text-rose-300 transition text-sm font-bold">تسجيل الخروج</a>
           </>
         ) : (
