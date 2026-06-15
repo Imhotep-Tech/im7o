@@ -8,7 +8,7 @@
 
 1. **نسخ المستودع (Clone)**: قم بنسخ المستودع إلى جهازك المحلي.
    ```bash
-   git clone https://github.com/your-username/im7o.git
+   git clone https://github.com/Imhotep-Tech/im7o.git
    cd im7o
    ```
 2. **تثبيت الحزم (Install Dependencies)**: يتطلب المشروع Node.js.
