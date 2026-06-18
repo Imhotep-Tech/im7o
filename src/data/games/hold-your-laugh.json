@@ -1,0 +1,17 @@
+{
+  "id": "hold-your-laugh",
+  "engineTemplate": "turn-based",
+  "mode": "individual",
+  "title": "امسك ضحكتك (Hold Your Laugh)",
+  "author": "Imhotep Tech",
+  "hasTimer": true,
+  "defaultTimerSeconds": 20,
+  "isTimerCustomizable": true,
+  "allowElimination": true,
+  "themeColor": "#06b6d4",
+  "logo": "💧",
+  "instructions": "إلى أي مدى يمكنك الصمود قبل أن تضحك؟\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. ضعوا القليل من الماء في أفواهكم دون بلعه.\n2. يقرأ اللاعب النكتة أو التحدي المكتوب على الشاشة بأكثر طريقة مضحكة ومستفزة.\n3. يجب على البقية محاولة كتم ضحكتهم وعدم بصق الماء!\n4. إذا نجح القارئ في إضحاك أي شخص، يكسب النقطة.\n5. هل يمكنك الصمود أم ستغرق الجميع؟\n\nHow long can you survive before laughing?\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. Everyone takes a sip of water and holds it in their mouth.\n2. The active player reads the joke or does the challenge in the funniest way possible.\n3. Everyone else listens trying not to laugh and spit the water out.\n4. If someone laughs, the reader scores a point!",
+  "turnStrategy": "sequential",
+  "allowPass": true,
+  "cardsFile": "hold-your-laugh-cards.json"
+}

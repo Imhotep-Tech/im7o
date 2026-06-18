@@ -1,0 +1,17 @@
+{
+  "id": "dynamite",
+  "engineTemplate": "hot-potato",
+  "mode": "two-team",
+  "title": "ديناميت (Dynamite)",
+  "author": "Imhotep Tech",
+  "hasTimer": true,
+  "defaultTimerSeconds": 60,
+  "isTimerCustomizable": true,
+  "allowElimination": true,
+  "themeColor": "#ef4444",
+  "logo": "bomb",
+  "instructions": "لعبة السرعة التي ستفجر التجمعات!\n\nالقوانين:\n1. انقسموا إلى فريقين.\n2. يمسك أحد اللاعبين الهاتف ويشرح الكلمة الظاهرة لزملائه في الفريق دون نطقها.\n3. إذا حزروها، اضغط (إجابة صحيحة) ومرر الهاتف للاعب من الفريق الآخر فوراً!\n4. العداد لا يتوقف... الفريق الذي ينتهي الوقت والهاتف في يده ينفجر ويخسر الجولة!\n\nThe speed game that will blow up the gathering!\n\nRules:\n1. Split into two teams.\n2. One player holds the phone and describes the word to their teammates without saying it.\n3. If they guess it, tap (Correct) and immediately pass the phone to a player on the other team!\n4. The timer never stops... The team holding the phone when the timer ends explodes and loses the round!",
+  "turnStrategy": "open",
+  "allowPass": false,
+  "cardsFile": "dynamite-cards.json"
+}

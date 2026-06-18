@@ -1,0 +1,17 @@
+{
+  "id": "one-line-cinema",
+  "engineTemplate": "mcq",
+  "mode": "individual",
+  "title": "سينما في جملة (One-Line Cinema)",
+  "author": "Imhotep Tech",
+  "hasTimer": true,
+  "defaultTimerSeconds": 30,
+  "isTimerCustomizable": true,
+  "allowElimination": false,
+  "themeColor": "#f43f5e",
+  "logo": "🍿",
+  "instructions": "حان الوقت لمعرفة من هو مدمن الشاشات الحقيقي!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. كل بطاقة تحتوي على ملخص لفيلم أو مسلسل في جملة واحدة فقط.\n2. يتم قراءة الجملة بصوت عالٍ للجميع.\n3. أول شخص يصرخ باسم الفيلم أو المسلسل الصحيح يكسب النقطة!\n4. اضغط على (إظهار الإجابة) للتأكد من صحة التخمين.\n\nIt’s time to find out who the real screen addict is!\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. Each card has a one-line summary of a movie or series.\n2. Read the sentence out loud to everyone.\n3. Be the first to shout the movie/series name to win the point!\n4. Click (Show Answer) to verify the guess.",
+  "turnStrategy": "open",
+  "allowPass": true,
+  "cardsFile": "one-line-cinema-cards.json"
+}

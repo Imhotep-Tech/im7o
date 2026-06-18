@@ -1,0 +1,17 @@
+{
+  "id": "sing-it",
+  "engineTemplate": "turn-based",
+  "mode": "individual",
+  "title": "غنيها (Sing It!)",
+  "author": "Imhotep Tech",
+  "hasTimer": true,
+  "defaultTimerSeconds": 20,
+  "isTimerCustomizable": true,
+  "allowElimination": false,
+  "themeColor": "#d946ef",
+  "logo": "🎤",
+  "instructions": "حان الوقت لإطلاق العنان لموهبتك الغنائية!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. ستظهر كلمة شائعة الاستخدام في الأغاني على الشاشة.\n2. يجب عليك التفكير بسرعة وغناء أي مقطع من أغنية تحتوي على هذه الكلمة قبل أي شخص آخر!\n3. أول شخص يغني مقطعاً صحيحاً يكسب النقطة.\n4. استعد لإثبات أنك تعرف أغاني أكثر من الجميع!\n\nTime to unleash your inner singer!\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. An iconic word used in songs will appear on the screen.\n2. Your mission is to quickly sing any lyric that includes that word before anyone else does.\n3. First to sing a correct lyric wins the point!",
+  "turnStrategy": "open",
+  "allowPass": true,
+  "cardsFile": "sing-it-cards.json"
+}

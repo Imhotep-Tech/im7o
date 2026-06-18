@@ -1,0 +1,17 @@
+{
+  "id": "cinema-expert",
+  "engineTemplate": "turn-based",
+  "mode": "individual",
+  "title": "خبير السينما (Cinema Expert)",
+  "author": "Imhotep Tech",
+  "hasTimer": true,
+  "defaultTimerSeconds": 30,
+  "isTimerCustomizable": true,
+  "allowElimination": false,
+  "themeColor": "#e11d48",
+  "logo": "🎬",
+  "instructions": "هل أنت موسوعة سينمائية متحركة؟\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. سيظهر تحدي سينمائي على الشاشة (مثال: اذكر 3 أفلام لفلان).\n2. الجميع يلعب في نفس الوقت! كن أول من يذكر العدد المطلوب من الأفلام أو الشخصيات.\n3. أسرع شخص يكمل التحدي قبل البقية وفي الوقت المحدد يربح النقطة.\n4. ثانية واحدة قد تكون الفارق بينك وبين لقب 'الخبير السينمائي'!\n\nReady to prove you're a walking movie encyclopedia?\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. A movie challenge will appear on screen (e.g., Name 3 movies starring...)\n2. Everyone plays at the same time! Be the first to name the required number of movies or characters.\n3. The fastest one to complete the challenge wins the point.\n4. One second can be the difference between you and the title of The True Movie Expert!",
+  "turnStrategy": "open",
+  "allowPass": true,
+  "cardsFile": "cinema-expert-cards.json"
+}

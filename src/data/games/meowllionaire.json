@@ -1,0 +1,17 @@
+{
+  "id": "meowllionaire",
+  "engineTemplate": "mcq",
+  "mode": "individual",
+  "title": "المياوونير (The Meowllionaire)",
+  "author": "Imhotep Tech",
+  "hasTimer": true,
+  "defaultTimerSeconds": 30,
+  "isTimerCustomizable": true,
+  "allowElimination": true,
+  "themeColor": "#eab308",
+  "logo": "🐱",
+  "instructions": "هل أنتم مستعدون لتحدي المياوونير؟\nالعمر: +9 | المدة: 30+ دقيقة | اللاعبين: +2\n\nالقوانين:\n1. كل لاعب يطرح عليه سؤال بأربع خيارات.\n2. الإجابة الصحيحة تمنحك نقطة.\n3. استخدم وقتك بذكاء، فلديك 30 ثانية فقط!\n4. اللاعب الذي يجمع أكبر عدد من النقاط أو ينجو من الإقصاء هو المياوونير!\n\nAre you ready for The Meowllionaire Challenge?\nAge: 9+ | Time: 30+ mins | Players: 2+\n\nRules:\n1. Each player is asked a multiple-choice question.\n2. A correct answer gives you a point.\n3. Use your time wisely, you only have 30 seconds!\n4. The player with the most points or the last one standing is the Meowllionaire!",
+  "turnStrategy": "sequential",
+  "allowPass": false,
+  "cardsFile": "meowllionaire-cards.json"
+}

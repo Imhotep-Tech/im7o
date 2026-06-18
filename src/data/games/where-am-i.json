@@ -1,0 +1,17 @@
+{
+  "id": "where-am-i",
+  "engineTemplate": "mcq",
+  "mode": "individual",
+  "title": "أين أنا؟ (Where Am I?)",
+  "author": "Imhotep Tech",
+  "hasTimer": true,
+  "defaultTimerSeconds": 45,
+  "isTimerCustomizable": true,
+  "allowElimination": false,
+  "themeColor": "#8b5cf6",
+  "logo": "🗺️",
+  "instructions": "هل أنت مستعد للسفر عبر عوالم حقيقية وخيالية؟\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. كل بطاقة تحتوي على أدلة ووصف لمكان معين (قد يكون حقيقياً أو خيالياً).\n2. اقرأ الأدلة بصوت عالٍ خطوة بخطوة.\n3. يجب على اللاعبين التفكير بسرعة وربط التلميحات لاكتشاف المكان.\n4. أول شخص يصرخ باسم المكان الصحيح يربح الجولة ويكسب النقطة!\n\nReady to travel through real and imaginary worlds?\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. Every card has clues describing a real or imaginary place.\n2. Read the clues out loud step by step.\n3. Players must piece together the hints and guess the right place.\n4. First to guess correctly wins the point!",
+  "turnStrategy": "open",
+  "allowPass": true,
+  "cardsFile": "where-am-i-cards.json"
+}

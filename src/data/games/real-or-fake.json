@@ -1,0 +1,17 @@
+{
+  "id": "real-or-fake",
+  "engineTemplate": "mcq",
+  "mode": "individual",
+  "title": "حقيقي ولا خيالي (Real or Fake)",
+  "author": "Imhotep Tech",
+  "hasTimer": true,
+  "defaultTimerSeconds": 30,
+  "isTimerCustomizable": true,
+  "allowElimination": true,
+  "themeColor": "#10b981",
+  "logo": "🎭",
+  "instructions": "لعبة مليئة بالشكوك والنقاشات الحادة!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. كل بطاقة تحتوي على معلومتين، واحدة حقيقية والأخرى خيالية (مختلقة).\n2. يقرأ اللاعب المعلومتين للمجموعة.\n3. يجب على اللاعبين التخمين واكتشاف المعلومة الحقيقية!\n4. راهن على ذكائك (أو قدرتك على الخداع) ضد البقية. صاحب الإجابة الصحيحة يكسب النقطة!\n\nA tricky game full of doubt and debates!\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. Each card gives you two pieces of info: one real, one made up.\n2. Read both statements out loud to the group.\n3. Players must guess and spot the true fact!\n4. It’s your brains (or bluffing skills) against the rest. The correct guesser scores a point!",
+  "turnStrategy": "open",
+  "allowPass": false,
+  "cardsFile": "real-or-fake-cards.json"
+}
