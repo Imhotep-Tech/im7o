@@ -1,402 +1,402 @@
 [
   {
-    "question": "ما هو الحيوان الذي ينام لأكثر عدد من الساعات يومياً؟\n(Which animal sleeps the most hours per day?)\n\nA) الأسد (Lion)\nB) القط (Cat)\nC) الكسلان (Sloth)\nD) الكوالا (Koala)",
-    "answer": "D) الكوالا (Koala)"
+    "question": "ما هو الحيوان الذي ينام لأكثر عدد من الساعات يومياً؟\n\nA) الأسد\nB) القط\nC) الكسلان\nD) الكوالا",
+    "answer": "D) الكوالا"
   },
   {
-    "question": "في أي عام غرقت سفينة التايتانيك؟\n(In which year did the Titanic sink?)\n\nA) 1905\nB) 1912\nC) 1920\nD) 1918",
+    "question": "في أي عام غرقت سفينة التايتانيك؟\n\nA) 1905\nB) 1912\nC) 1920\nD) 1918",
     "answer": "B) 1912"
   },
   {
-    "question": "من هو مخرج فيلم (Avatar)؟\n(Who directed the movie 'Avatar'?)\n\nA) ستيفن سبيلبرغ (Steven Spielberg)\nB) جيمس كاميرون (James Cameron)\nC) كريستوفر نولان (Christopher Nolan)\nD) كوينتن تارانتينو (Quentin Tarantino)",
-    "answer": "B) جيمس كاميرون (James Cameron)"
+    "question": "من هو مخرج فيلم؟\n\nA) ستيفن سبيلبرغ\nB) جيمس كاميرون\nC) كريستوفر نولان\nD) كوينتن تارانتينو",
+    "answer": "B) جيمس كاميرون"
   },
   {
-    "question": "ما هو الرمز الكيميائي للذهب؟\n(What is the chemical symbol for Gold?)\n\nA) Ag\nB) Au\nC) Fe\nD) Gd",
+    "question": "ما هو الرمز الكيميائي للذهب؟\n\nA) Ag\nB) Au\nC) Fe\nD) Gd",
     "answer": "B) Au"
   },
   {
-    "question": "أي فيلم رسوم متحركة كان الأول الذي يُرشح لجائزة الأوسكار لأفضل فيلم؟\n(Which animated movie was the first to be nominated for the Academy Award for Best Picture?)\n\nA) حورية البحر (The Little Mermaid)\nB) الأسد الملك (The Lion King)\nC) الجميلة والوحش (Beauty and the Beast)\nD) حكاية لعبة (Toy Story)",
-    "answer": "C) الجميلة والوحش (Beauty and the Beast)"
+    "question": "أي فيلم رسوم متحركة كان الأول الذي يُرشح لجائزة الأوسكار لأفضل فيلم؟\n\nA) حورية البحر\nB) الأسد الملك\nC) الجميلة والوحش\nD) حكاية لعبة",
+    "answer": "C) الجميلة والوحش"
   },
   {
-    "question": "من الذي رسم لوحة الموناليزا؟\n(Who painted the Mona Lisa?)\n\nA) بابلو بيكاسو (Pablo Picasso)\nB) فينسنت فان جوخ (Vincent van Gogh)\nC) ليوناردو دا فينشي (Leonardo da Vinci)\nD) مايكل أنجلو (Michelangelo)",
-    "answer": "C) ليوناردو دا فينشي (Leonardo da Vinci)"
+    "question": "من الذي رسم لوحة الموناليزا؟\n\nA) بابلو بيكاسو\nB) فينسنت فان جوخ\nC) ليوناردو دا فينشي\nD) مايكل أنجلو",
+    "answer": "C) ليوناردو دا فينشي"
   },
   {
-    "question": "ما هي أكبر قارة في العالم من حيث المساحة؟\n(What is the largest continent in the world by area?)\n\nA) أفريقيا (Africa)\nB) أمريكا الشمالية (North America)\nC) آسيا (Asia)\nD) أوروبا (Europe)",
-    "answer": "C) آسيا (Asia)"
+    "question": "ما هي أكبر قارة في العالم من حيث المساحة؟\n\nA) أفريقيا\nB) أمريكا الشمالية\nC) آسيا\nD) أوروبا",
+    "answer": "C) آسيا"
   },
   {
-    "question": "في أي مدينة يقع مبنى الكولوسيوم الشهير؟\n(In which city is the famous Colosseum located?)\n\nA) أثينا (Athens)\nB) باريس (Paris)\nC) روما (Rome)\nD) مدريد (Madrid)",
-    "answer": "C) روما (Rome)"
+    "question": "في أي مدينة يقع مبنى الكولوسيوم الشهير؟\n\nA) أثينا\nB) باريس\nC) روما\nD) مدريد",
+    "answer": "C) روما"
   },
   {
-    "question": "أي ممثل لعب دور الرجل الحديدي (Iron Man)؟\n(Which actor played Iron Man?)\n\nA) كريس إيفانز (Chris Evans)\nB) روبرت داوني جونيور (Robert Downey Jr.)\nC) كريس هيمسوورث (Chris Hemsworth)\nD) مارك رافالو (Mark Ruffalo)",
-    "answer": "B) روبرت داوني جونيور (Robert Downey Jr.)"
+    "question": "أي ممثل لعب دور الرجل الحديدي؟\n\nA) كريس إيفانز\nB) روبرت داوني جونيور\nC) كريس هيمسوورث\nD) مارك رافالو",
+    "answer": "B) روبرت داوني جونيور"
   },
   {
-    "question": "كم عدد قلوب الأخطبوط؟\n(How many hearts does an octopus have?)\n\nA) 1\nB) 2\nC) 3\nD) 4",
+    "question": "كم عدد قلوب الأخطبوط؟\n\nA) 1\nB) 2\nC) 3\nD) 4",
     "answer": "C) 3"
   },
   {
-    "question": "من كان الملك الفرعوني الذي بُني له الهرم الأكبر في الجيزة؟\n(Which Pharaoh was the Great Pyramid of Giza built for?)\n\nA) رمسيس الثاني (Ramses II)\nB) خوفو (Khufu)\nC) توت عنخ آمون (Tutankhamun)\nD) خفرع (Khafre)",
-    "answer": "B) خوفو (Khufu)"
+    "question": "من كان الملك الفرعوني الذي بُني له الهرم الأكبر في الجيزة؟\n\nA) رمسيس الثاني\nB) خوفو\nC) توت عنخ آمون\nD) خفرع",
+    "answer": "B) خوفو"
   },
   {
-    "question": "أي كوكب يُعرف بالكوكب الأحمر؟\n(Which planet is known as the Red Planet?)\n\nA) المريخ (Mars)\nB) الزهرة (Venus)\nC) المشتري (Jupiter)\nD) زحل (Saturn)",
-    "answer": "A) المريخ (Mars)"
+    "question": "أي كوكب يُعرف بالكوكب الأحمر؟\n\nA) المريخ\nB) الزهرة\nC) المشتري\nD) زحل",
+    "answer": "A) المريخ"
   },
   {
-    "question": "ما هي أول دولة استخدمت النقود الورقية؟\n(Which country was the first to use paper money?)\n\nA) الهند (India)\nB) مصر (Egypt)\nC) الصين (China)\nD) بريطانيا (Britain)",
-    "answer": "C) الصين (China)"
+    "question": "ما هي أول دولة استخدمت النقود الورقية؟\n\nA) الهند\nB) مصر\nC) الصين\nD) بريطانيا",
+    "answer": "C) الصين"
   },
   {
-    "question": "من هي الممثلة التي لعبت دور (هيرميون جرينجر) في أفلام هاري بوتر؟\n(Which actress played Hermione Granger in the Harry Potter movies?)\n\nA) إيما ستون (Emma Stone)\nB) ناتالي بورتمان (Natalie Portman)\nC) إيما واتسون (Emma Watson)\nD) جينيفر لورانس (Jennifer Lawrence)",
-    "answer": "C) إيما واتسون (Emma Watson)"
+    "question": "من هي الممثلة التي لعبت دور (هيرميون جرينجر) في أفلام هاري بوتر؟\n\nA) إيما ستون\nB) ناتالي بورتمان\nC) إيما واتسون\nD) جينيفر لورانس",
+    "answer": "C) إيما واتسون"
   },
   {
-    "question": "ما هو العضو الذي يستمر في النمو طوال حياة الإنسان؟\n(Which organ continues to grow throughout a human's life?)\n\nA) العين (Eye)\nB) القلب (Heart)\nC) الأنف (Nose)\nD) الدماغ (Brain)",
-    "answer": "C) الأنف (Nose)"
+    "question": "ما هو العضو الذي يستمر في النمو طوال حياة الإنسان؟\n\nA) العين\nB) القلب\nC) الأنف\nD) الدماغ",
+    "answer": "C) الأنف"
   },
   {
-    "question": "في أي فيلم ظهرت شخصية دارث فيدر لأول مرة؟\n(In which movie did Darth Vader first appear?)\n\nA) حرب النجوم (Star Wars)\nB) ستار تريك (Star Trek)\nC) سيد الخواتم (Lord of the Rings)\nD) الماتريكس (The Matrix)",
-    "answer": "A) حرب النجوم (Star Wars)"
+    "question": "في أي فيلم ظهرت شخصية دارث فيدر لأول مرة؟\n\nA) حرب النجوم\nB) ستار تريك\nC) سيد الخواتم\nD) الماتريكس",
+    "answer": "A) حرب النجوم"
   },
   {
-    "question": "ما هو الاسم الحقيقي للقط (غارفيلد) في القصص المصورة؟\n(What is the famous orange comic cat's name?)\n\nA) توم (Tom)\nB) سيلفستر (Sylvester)\nC) غارفيلد (Garfield)\nD) فيليكس (Felix)",
-    "answer": "C) غارفيلد (Garfield)"
+    "question": "ما هو الاسم الحقيقي للقط (غارفيلد) في القصص المصورة؟\n\nA) توم\nB) سيلفستر\nC) غارفيلد\nD) فيليكس",
+    "answer": "C) غارفيلد"
   },
   {
-    "question": "أين أقيمت أول ألعاب أولمبية حديثة عام 1896؟\n(Where were the first modern Olympic Games held in 1896?)\n\nA) باريس (Paris)\nB) لندن (London)\nC) أثينا (Athens)\nD) روما (Rome)",
-    "answer": "C) أثينا (Athens)"
+    "question": "أين أقيمت أول ألعاب أولمبية حديثة عام 1896؟\n\nA) باريس\nB) لندن\nC) أثينا\nD) روما",
+    "answer": "C) أثينا"
   },
   {
-    "question": "ما هو أسرع حيوان بري في العالم؟\n(What is the fastest land animal in the world?)\n\nA) الأسد (Lion)\nB) النمر (Tiger)\nC) الفهد (Cheetah)\nD) الغزال (Gazelle)",
-    "answer": "C) الفهد (Cheetah)"
+    "question": "ما هو أسرع حيوان بري في العالم؟\n\nA) الأسد\nB) النمر\nC) الفهد\nD) الغزال",
+    "answer": "C) الفهد"
   },
   {
-    "question": "من هو مؤسس شركة آبل (Apple) مع ستيف وزنياك؟\n(Who founded Apple along with Steve Wozniak?)\n\nA) بيل غيتس (Bill Gates)\nB) ستيف جوبز (Steve Jobs)\nC) مارك زوكربيرغ (Mark Zuckerberg)\nD) إيلون ماسك (Elon Musk)",
-    "answer": "B) ستيف جوبز (Steve Jobs)"
+    "question": "من هو مؤسس شركة آبل مع ستيف وزنياك؟\n\nA) بيل غيتس\nB) ستيف جوبز\nC) مارك زوكربيرغ\nD) إيلون ماسك",
+    "answer": "B) ستيف جوبز"
   },
   {
-    "question": "ما هو اسم الأسد في فيلم (الأسد الملك)؟\n(What is the name of the lion in 'The Lion King'?)\n\nA) موفاسا (Mufasa)\nB) سيمبا (Simba)\nC) سكار (Scar)\nD) تيمون (Timon)",
-    "answer": "B) سيمبا (Simba)"
+    "question": "ما هو اسم الأسد في فيلم (الأسد الملك)؟\n\nA) موفاسا\nB) سيمبا\nC) سكار\nD) تيمون",
+    "answer": "B) سيمبا"
   },
   {
-    "question": "ما هو أطول نهر في العالم؟\n(What is the longest river in the world?)\n\nA) النيل (Nile)\nB) الأمازون (Amazon)\nC) المسيسيبي (Mississippi)\nD) اليانغتسي (Yangtze)",
-    "answer": "A) النيل (Nile)"
+    "question": "ما هو أطول نهر في العالم؟\n\nA) النيل\nB) الأمازون\nC) المسيسيبي\nD) اليانغتسي",
+    "answer": "A) النيل"
   },
   {
-    "question": "من هو القائد الذي أسس الإمبراطورية المغولية؟\n(Which leader founded the Mongol Empire?)\n\nA) جنكيز خان (Genghis Khan)\nB) الإسكندر الأكبر (Alexander the Great)\nC) نابليون بونابرت (Napoleon Bonaparte)\nD) يوليوس قيصر (Julius Caesar)",
-    "answer": "A) جنكيز خان (Genghis Khan)"
+    "question": "من هو القائد الذي أسس الإمبراطورية المغولية؟\n\nA) جنكيز خان\nB) الإسكندر الأكبر\nC) نابليون بونابرت\nD) يوليوس قيصر",
+    "answer": "A) جنكيز خان"
   },
   {
-    "question": "كم عدد الألوان في قوس قزح؟\n(How many colors are in a rainbow?)\n\nA) 5\nB) 6\nC) 7\nD) 8",
+    "question": "كم عدد الألوان في قوس قزح؟\n\nA) 5\nB) 6\nC) 7\nD) 8",
     "answer": "C) 7"
   },
   {
-    "question": "في أي فيلم يقول البطل العبارة الشهيرة: (سأعود) \"I'll be back\"؟\n(In which movie does the hero say 'I'll be back'?)\n\nA) رامبو (Rambo)\nB) المبيد (The Terminator)\nC) روكي (Rocky)\nD) الغريب (Alien)",
-    "answer": "B) المبيد (The Terminator)"
+    "question": "في أي فيلم يقول البطل العبارة الشهيرة: (سأعود) \"I'll be back\"؟\n\nA) رامبو\nB) المبيد\nC) روكي\nD) الغريب",
+    "answer": "B) المبيد"
   },
   {
-    "question": "ما هو الحيوان الذي يستطيع النوم واقفاً؟\n(Which animal can sleep standing up?)\n\nA) الكلب (Dog)\nB) الحصان (Horse)\nC) القط (Cat)\nD) القرد (Monkey)",
-    "answer": "B) الحصان (Horse)"
+    "question": "ما هو الحيوان الذي يستطيع النوم واقفاً؟\n\nA) الكلب\nB) الحصان\nC) القط\nD) القرد",
+    "answer": "B) الحصان"
   },
   {
-    "question": "من اكتشف الجاذبية الأرضية؟\n(Who discovered gravity?)\n\nA) ألبرت أينشتاين (Albert Einstein)\nB) نيكولا تسلا (Nikola Tesla)\nC) إسحاق نيوتن (Isaac Newton)\nD) غاليليو غاليلي (Galileo Galilei)",
-    "answer": "C) إسحاق نيوتن (Isaac Newton)"
+    "question": "من اكتشف الجاذبية الأرضية؟\n\nA) ألبرت أينشتاين\nB) نيكولا تسلا\nC) إسحاق نيوتن\nD) غاليليو غاليلي",
+    "answer": "C) إسحاق نيوتن"
   },
   {
-    "question": "ما هي اللغة الأكثر تحدثاً في العالم كلغة أم؟\n(What is the most spoken native language in the world?)\n\nA) الإنجليزية (English)\nB) الإسبانية (Spanish)\nC) الماندرين (Mandarin Chinese)\nD) العربية (Arabic)",
-    "answer": "C) الماندرين (Mandarin Chinese)"
+    "question": "ما هي اللغة الأكثر تحدثاً في العالم كلغة أم؟\n\nA) الإنجليزية\nB) الإسبانية\nC) الماندرين\nD) العربية",
+    "answer": "C) الماندرين"
   },
   {
-    "question": "أي فيلم يحمل الرقم القياسي لأكثر فيلم تحقيقاً للإيرادات في التاريخ (غير معدل للتضخم)؟\n(Which movie is the highest-grossing film of all time?)\n\nA) أفاتار (Avatar)\nB) المنتقمون: نهاية اللعبة (Avengers: Endgame)\nC) تايتانيك (Titanic)\nD) حرب النجوم: القوة تنهض (Star Wars: The Force Awakens)",
-    "answer": "A) أفاتار (Avatar)"
+    "question": "أي فيلم يحمل الرقم القياسي لأكثر فيلم تحقيقاً للإيرادات في التاريخ (غير معدل للتضخم)؟\n\nA) أفاتار\nB) المنتقمون: نهاية اللعبة\nC) تايتانيك\nD) حرب النجوم: القوة تنهض",
+    "answer": "A) أفاتار"
   },
   {
-    "question": "كم عدد الأسنان لدى القط البالغ العادي؟\n(How many teeth does a normal adult cat have?)\n\nA) 24\nB) 30\nC) 32\nD) 42",
+    "question": "كم عدد الأسنان لدى القط البالغ العادي؟\n\nA) 24\nB) 30\nC) 32\nD) 42",
     "answer": "B) 30"
   },
   {
-    "question": "من كان أول شخص يمشي على سطح القمر؟\n(Who was the first person to walk on the moon?)\n\nA) يوري غاغارين (Yuri Gagarin)\nB) نيل آرمسترونغ (Neil Armstrong)\nC) باز ألدرين (Buzz Aldrin)\nD) مايكل كولينز (Michael Collins)",
-    "answer": "B) نيل آرمسترونغ (Neil Armstrong)"
+    "question": "من كان أول شخص يمشي على سطح القمر؟\n\nA) يوري غاغارين\nB) نيل آرمسترونغ\nC) باز ألدرين\nD) مايكل كولينز",
+    "answer": "B) نيل آرمسترونغ"
   },
   {
-    "question": "ما هي عاصمة اليابان؟\n(What is the capital of Japan?)\n\nA) بكين (Beijing)\nB) سيول (Seoul)\nC) طوكيو (Tokyo)\nD) كيوتو (Kyoto)",
-    "answer": "C) طوكيو (Tokyo)"
+    "question": "ما هي عاصمة اليابان؟\n\nA) بكين\nB) سيول\nC) طوكيو\nD) كيوتو",
+    "answer": "C) طوكيو"
   },
   {
-    "question": "في سلسلة (سيد الخواتم)، ما هو اسم الساحر الرمادي؟\n(In 'The Lord of the Rings', what is the name of the Grey Wizard?)\n\nA) سارومان (Saruman)\nB) غاندالف (Gandalf)\nC) راداغاست (Radagast)\nD) سورون (Sauron)",
-    "answer": "B) غاندالف (Gandalf)"
+    "question": "في سلسلة (سيد الخواتم)، ما هو اسم الساحر الرمادي؟\n\nA) سارومان\nB) غاندالف\nC) راداغاست\nD) سورون",
+    "answer": "B) غاندالف"
   },
   {
-    "question": "من هي المرأة التي فازت بجائزة نوبل مرتين في مجالين مختلفين؟\n(Which woman won the Nobel Prize twice in different fields?)\n\nA) ماري كوري (Marie Curie)\nB) روزاليند فرانكلين (Rosalind Franklin)\nC) جين غودال (Jane Goodall)\nD) فلورانس نايتنجيل (Florence Nightingale)",
-    "answer": "A) ماري كوري (Marie Curie)"
+    "question": "من هي المرأة التي فازت بجائزة نوبل مرتين في مجالين مختلفين؟\n\nA) ماري كوري\nB) روزاليند فرانكلين\nC) جين غودال\nD) فلورانس نايتنجيل",
+    "answer": "A) ماري كوري"
   },
   {
-    "question": "ما هو الغاز الذي نتنفسه ونحتاجه للبقاء على قيد الحياة؟\n(What gas do we breathe and need to survive?)\n\nA) ثاني أكسيد الكربون (Carbon Dioxide)\nB) الهيدروجين (Hydrogen)\nC) النيتروجين (Nitrogen)\nD) الأكسجين (Oxygen)",
-    "answer": "D) الأكسجين (Oxygen)"
+    "question": "ما هو الغاز الذي نتنفسه ونحتاجه للبقاء على قيد الحياة؟\n\nA) ثاني أكسيد الكربون\nB) الهيدروجين\nC) النيتروجين\nD) الأكسجين",
+    "answer": "D) الأكسجين"
   },
   {
-    "question": "أي الممثلين لعب دور الجوكر في فيلم (فارس الظلام)؟\n(Which actor played the Joker in 'The Dark Knight'?)\n\nA) جاك نيكلسون (Jack Nicholson)\nB) هيث ليدجر (Heath Ledger)\nC) خواكين فينيكس (Joaquin Phoenix)\nD) جاريد ليتو (Jared Leto)",
-    "answer": "B) هيث ليدجر (Heath Ledger)"
+    "question": "أي الممثلين لعب دور الجوكر في فيلم (فارس الظلام)؟\n\nA) جاك نيكلسون\nB) هيث ليدجر\nC) خواكين فينيكس\nD) جاريد ليتو",
+    "answer": "B) هيث ليدجر"
   },
   {
-    "question": "ما هو أطول جبل في العالم فوق مستوى سطح البحر؟\n(What is the tallest mountain in the world above sea level?)\n\nA) جبل كليمنجارو (Mount Kilimanjaro)\nB) جبل إيفرست (Mount Everest)\nC) جبل كي 2 (K2)\nD) جبل فوجي (Mount Fuji)",
-    "answer": "B) جبل إيفرست (Mount Everest)"
+    "question": "ما هو أطول جبل في العالم فوق مستوى سطح البحر؟\n\nA) جبل كليمنجارو\nB) جبل إيفرست\nC) جبل كي 2\nD) جبل فوجي",
+    "answer": "B) جبل إيفرست"
   },
   {
-    "question": "ما هي الدولة التي أهدت تمثال الحرية للولايات المتحدة الأمريكية؟\n(Which country gifted the Statue of Liberty to the USA?)\n\nA) بريطانيا (Britain)\nB) إسبانيا (Spain)\nC) فرنسا (France)\nD) إيطاليا (Italy)",
-    "answer": "C) فرنسا (France)"
+    "question": "ما هي الدولة التي أهدت تمثال الحرية للولايات المتحدة الأمريكية؟\n\nA) بريطانيا\nB) إسبانيا\nC) فرنسا\nD) إيطاليا",
+    "answer": "C) فرنسا"
   },
   {
-    "question": "ما هو اسم العميل السري 007؟\n(What is the name of secret agent 007?)\n\nA) إيثان هانت (Ethan Hunt)\nB) جيسون بورن (Jason Bourne)\nC) جيمس بوند (James Bond)\nD) جون ويك (John Wick)",
-    "answer": "C) جيمس بوند (James Bond)"
+    "question": "ما هو اسم العميل السري 007؟\n\nA) إيثان هانت\nB) جيسون بورن\nC) جيمس بوند\nD) جون ويك",
+    "answer": "C) جيمس بوند"
   },
   {
-    "question": "كيف تظهر القطط سعادتها ورضاها؟\n(How do cats usually show their happiness and contentment?)\n\nA) بالنباح (Barking)\nB) بالخرخرة (Purring)\nC) بالعواء (Howling)\nD) بالزئير (Roaring)",
-    "answer": "B) بالخرخرة (Purring)"
+    "question": "كيف تظهر القطط سعادتها ورضاها؟\n\nA) بالنباح\nB) بالخرخرة\nC) بالعواء\nD) بالزئير",
+    "answer": "B) بالخرخرة"
   },
   {
-    "question": "من بنى حدائق بابل المعلقة؟\n(Who built the Hanging Gardens of Babylon?)\n\nA) الإسكندر الأكبر (Alexander the Great)\nB) نبوخذ نصر الثاني (Nebuchadnezzar II)\nC) حمورابي (Hammurabi)\nD) سيروس الكبير (Cyrus the Great)",
-    "answer": "B) نبوخذ نصر الثاني (Nebuchadnezzar II)"
+    "question": "من بنى حدائق بابل المعلقة؟\n\nA) الإسكندر الأكبر\nB) نبوخذ نصر الثاني\nC) حمورابي\nD) سيروس الكبير",
+    "answer": "B) نبوخذ نصر الثاني"
   },
   {
-    "question": "ما هو المعدن الأكثر وفرة في قشرة الأرض؟\n(What is the most abundant metal in the Earth's crust?)\n\nA) الحديد (Iron)\nB) النحاس (Copper)\nC) الألومنيوم (Aluminum)\nD) الذهب (Gold)",
-    "answer": "C) الألومنيوم (Aluminum)"
+    "question": "ما هو المعدن الأكثر وفرة في قشرة الأرض؟\n\nA) الحديد\nB) النحاس\nC) الألومنيوم\nD) الذهب",
+    "answer": "C) الألومنيوم"
   },
   {
-    "question": "أي فيلم من أفلام مارفل كان الأول في سلسلة (عالم مارفل السينمائي)؟\n(Which Marvel movie was the first in the Marvel Cinematic Universe?)\n\nA) كابتن أمريكا (Captain America)\nB) ثور (Thor)\nC) هالك العجيب (The Incredible Hulk)\nD) الرجل الحديدي (Iron Man)",
-    "answer": "D) الرجل الحديدي (Iron Man)"
+    "question": "أي فيلم من أفلام مارفل كان الأول في سلسلة (عالم مارفل السينمائي)؟\n\nA) كابتن أمريكا\nB) ثور\nC) هالك العجيب\nD) الرجل الحديدي",
+    "answer": "D) الرجل الحديدي"
   },
   {
-    "question": "ما هو الطائر الذي لا يمكنه الطيران ولكنه يسبح بمهارة؟\n(Which bird cannot fly but swims skillfully?)\n\nA) النعامة (Ostrich)\nB) البطريق (Penguin)\nC) الدجاجة (Chicken)\nD) الطاووس (Peacock)",
-    "answer": "B) البطريق (Penguin)"
+    "question": "ما هو الطائر الذي لا يمكنه الطيران ولكنه يسبح بمهارة؟\n\nA) النعامة\nB) البطريق\nC) الدجاجة\nD) الطاووس",
+    "answer": "B) البطريق"
   },
   {
-    "question": "في أي مدينة يقع تاج محل؟\n(In which city is the Taj Mahal located?)\n\nA) دلهي (Delhi)\nB) مومباي (Mumbai)\nC) أغرا (Agra)\nD) جايبور (Jaipur)",
-    "answer": "C) أغرا (Agra)"
+    "question": "في أي مدينة يقع تاج محل؟\n\nA) دلهي\nB) مومباي\nC) أغرا\nD) جايبور",
+    "answer": "C) أغرا"
   },
   {
-    "question": "أي فيلم يتميز بشخصية (فورست غامب)؟\n(Which movie features the character 'Forrest Gump'?)\n\nA) فورست غامب (Forrest Gump)\nB) الخلاص من شاوشانك (The Shawshank Redemption)\nC) الميل الأخضر (The Green Mile)\nD) المصبوب بعيدا (Cast Away)",
-    "answer": "A) فورست غامب (Forrest Gump)"
+    "question": "أي فيلم يتميز بشخصية (فورست غامب)؟\n\nA) فورست غامب\nB) الخلاص من شاوشانك\nC) الميل الأخضر\nD) المصبوب بعيدا",
+    "answer": "A) فورست غامب"
   },
   {
-    "question": "ما هي أصغر دولة في العالم من حيث المساحة؟\n(What is the smallest country in the world by area?)\n\nA) موناكو (Monaco)\nB) الفاتيكان (Vatican City)\nC) سان مارينو (San Marino)\nD) ليختنشتاين (Liechtenstein)",
-    "answer": "B) الفاتيكان (Vatican City)"
+    "question": "ما هي أصغر دولة في العالم من حيث المساحة؟\n\nA) موناكو\nB) الفاتيكان\nC) سان مارينو\nD) ليختنشتاين",
+    "answer": "B) الفاتيكان"
   },
   {
-    "question": "من كان بطل فيلم (الماتريكس)؟\n(Who was the hero of 'The Matrix'?)\n\nA) نيو (Neo)\nB) مورفيوس (Morpheus)\nC) ترينيتي (Trinity)\nD) العميل سميث (Agent Smith)",
-    "answer": "A) نيو (Neo)"
+    "question": "من كان بطل فيلم (الماتريكس)؟\n\nA) نيو\nB) مورفيوس\nC) ترينيتي\nD) العميل سميث",
+    "answer": "A) نيو"
   },
   {
-    "question": "ما هو لون دم القطط؟\n(What is the color of a cat's blood?)\n\nA) أزرق (Blue)\nB) أخضر (Green)\nC) أحمر (Red)\nD) أسود (Black)",
-    "answer": "C) أحمر (Red)"
+    "question": "ما هو لون دم القطط؟\n\nA) أزرق\nB) أخضر\nC) أحمر\nD) أسود",
+    "answer": "C) أحمر"
   },
   {
-    "question": "من الذي كتب مسرحية (روميو وجولييت)؟\n(Who wrote the play 'Romeo and Juliet'?)\n\nA) تشارلز ديكنز (Charles Dickens)\nB) وليام شكسبير (William Shakespeare)\nC) مارك توين (Mark Twain)\nD) جين أوستن (Jane Austen)",
-    "answer": "B) وليام شكسبير (William Shakespeare)"
+    "question": "من الذي كتب مسرحية (روميو وجولييت)؟\n\nA) تشارلز ديكنز\nB) وليام شكسبير\nC) مارك توين\nD) جين أوستن",
+    "answer": "B) وليام شكسبير"
   },
   {
-    "question": "ما هي أعمق نقطة في محيطات العالم؟\n(What is the deepest point in the world's oceans?)\n\nA) خندق ماريانا (Mariana Trench)\nB) خندق بورتوريكو (Puerto Rico Trench)\nC) خندق تونغا (Tonga Trench)\nD) خندق اليابان (Japan Trench)",
-    "answer": "A) خندق ماريانا (Mariana Trench)"
+    "question": "ما هي أعمق نقطة في محيطات العالم؟\n\nA) خندق ماريانا\nB) خندق بورتوريكو\nC) خندق تونغا\nD) خندق اليابان",
+    "answer": "A) خندق ماريانا"
   },
   {
-    "question": "في فيلم (علاء الدين)، ما هو اسم القرد الخاص بعلاء الدين؟\n(In 'Aladdin', what is the name of Aladdin's monkey?)\n\nA) راجا (Rajah)\nB) أبو (Abu)\nC) إياغو (Iago)\nD) جيني (Genie)",
-    "answer": "B) أبو (Abu)"
+    "question": "في فيلم (علاء الدين)، ما هو اسم القرد الخاص بعلاء الدين؟\n\nA) راجا\nB) أبو\nC) إياغو\nD) جيني",
+    "answer": "B) أبو"
   },
   {
-    "question": "ما هي الحرب التي استمرت من 1939 إلى 1945؟\n(Which war lasted from 1939 to 1945?)\n\nA) الحرب العالمية الأولى (World War I)\nB) الحرب العالمية الثانية (World War II)\nC) حرب فيتنام (Vietnam War)\nD) الحرب الباردة (Cold War)",
-    "answer": "B) الحرب العالمية الثانية (World War II)"
+    "question": "ما هي الحرب التي استمرت من 1939 إلى 1945؟\n\nA) الحرب العالمية الأولى\nB) الحرب العالمية الثانية\nC) حرب فيتنام\nD) الحرب الباردة",
+    "answer": "B) الحرب العالمية الثانية"
   },
   {
-    "question": "أي الفواكه الآتية تحتوي على بذورها في الخارج؟\n(Which of the following fruits has its seeds on the outside?)\n\nA) التفاح (Apple)\nB) الموز (Banana)\nC) الفراولة (Strawberry)\nD) البطيخ (Watermelon)",
-    "answer": "C) الفراولة (Strawberry)"
+    "question": "أي الفواكه الآتية تحتوي على بذورها في الخارج؟\n\nA) التفاح\nB) الموز\nC) الفراولة\nD) البطيخ",
+    "answer": "C) الفراولة"
   },
   {
-    "question": "من هي أول أميرة ديزني؟\n(Who was the first Disney princess?)\n\nA) سندريلا (Cinderella)\nB) أورورا (Aurora)\nC) بياض الثلج (Snow White)\nD) آرييل (Ariel)",
-    "answer": "C) بياض الثلج (Snow White)"
+    "question": "من هي أول أميرة ديزني؟\n\nA) سندريلا\nB) أورورا\nC) بياض الثلج\nD) آرييل",
+    "answer": "C) بياض الثلج"
   },
   {
-    "question": "ما هي القوة التي تبقي الكواكب في مداراتها حول الشمس؟\n(What force keeps the planets in orbit around the Sun?)\n\nA) المغناطيسية (Magnetism)\nB) الجاذبية (Gravity)\nC) الاحتكاك (Friction)\nD) القوة النووية (Nuclear force)",
-    "answer": "B) الجاذبية (Gravity)"
+    "question": "ما هي القوة التي تبقي الكواكب في مداراتها حول الشمس؟\n\nA) المغناطيسية\nB) الجاذبية\nC) الاحتكاك\nD) القوة النووية",
+    "answer": "B) الجاذبية"
   },
   {
-    "question": "ما هو اسم الأسد في شعار استوديوهات مترو غولدوين ماير (MGM)؟\n(What is the name of the lion in the MGM studios logo?)\n\nA) ليو (Leo)\nB) سيمبا (Simba)\nC) ماكس (Max)\nD) ريكس (Rex)",
-    "answer": "A) ليو (Leo)"
+    "question": "ما هو اسم الأسد في شعار استوديوهات مترو غولدوين ماير؟\n\nA) ليو\nB) سيمبا\nC) ماكس\nD) ريكس",
+    "answer": "A) ليو"
   },
   {
-    "question": "من كان أول رئيس للولايات المتحدة الأمريكية؟\n(Who was the first President of the United States?)\n\nA) أبراهام لينكولن (Abraham Lincoln)\nB) توماس جفرسون (Thomas Jefferson)\nC) جورج واشنطن (George Washington)\nD) جون آدامز (John Adams)",
-    "answer": "C) جورج واشنطن (George Washington)"
+    "question": "من كان أول رئيس للولايات المتحدة الأمريكية؟\n\nA) أبراهام لينكولن\nB) توماس جفرسون\nC) جورج واشنطن\nD) جون آدامز",
+    "answer": "C) جورج واشنطن"
   },
   {
-    "question": "ما هو أكبر محيط في العالم؟\n(What is the largest ocean in the world?)\n\nA) المحيط الأطلسي (Atlantic Ocean)\nB) المحيط الهندي (Indian Ocean)\nC) المحيط الهادئ (Pacific Ocean)\nD) المحيط المتجمد الشمالي (Arctic Ocean)",
-    "answer": "C) المحيط الهادئ (Pacific Ocean)"
+    "question": "ما هو أكبر محيط في العالم؟\n\nA) المحيط الأطلسي\nB) المحيط الهندي\nC) المحيط الهادئ\nD) المحيط المتجمد الشمالي",
+    "answer": "C) المحيط الهادئ"
   },
   {
-    "question": "أي فيلم من إخراج كريستوفر نولان يتحدث عن الأحلام داخل الأحلام؟\n(Which Christopher Nolan movie is about dreams within dreams?)\n\nA) بين النجوم (Interstellar)\nB) استهلال (Inception)\nC) دانكيرك (Dunkirk)\nD) تينيت (Tenet)",
-    "answer": "B) استهلال (Inception)"
+    "question": "أي فيلم من إخراج كريستوفر نولان يتحدث عن الأحلام داخل الأحلام؟\n\nA) بين النجوم\nB) استهلال\nC) دانكيرك\nD) تينيت",
+    "answer": "B) استهلال"
   },
   {
-    "question": "ما هي الحاسة الأكثر تطوراً لدى القطط؟\n(What is the most developed sense in cats?)\n\nA) التذوق (Taste)\nB) السمع (Hearing)\nC) البصر (Sight)\nD) الشم (Smell)",
-    "answer": "B) السمع (Hearing)"
+    "question": "ما هي الحاسة الأكثر تطوراً لدى القطط؟\n\nA) التذوق\nB) السمع\nC) البصر\nD) الشم",
+    "answer": "B) السمع"
   },
   {
-    "question": "من بنى سور الصين العظيم في البداية؟\n(Who initially built the Great Wall of China?)\n\nA) سلالة هان (Han Dynasty)\nB) سلالة تشين (Qin Dynasty)\nC) سلالة مينغ (Ming Dynasty)\nD) سلالة تانغ (Tang Dynasty)",
-    "answer": "B) سلالة تشين (Qin Dynasty)"
+    "question": "من بنى سور الصين العظيم في البداية؟\n\nA) سلالة هان\nB) سلالة تشين\nC) سلالة مينغ\nD) سلالة تانغ",
+    "answer": "B) سلالة تشين"
   },
   {
-    "question": "كم عدد الكواكب في نظامنا الشمسي؟\n(How many planets are in our solar system?)\n\nA) 7\nB) 8\nC) 9\nD) 10",
+    "question": "كم عدد الكواكب في نظامنا الشمسي؟\n\nA) 7\nB) 8\nC) 9\nD) 10",
     "answer": "B) 8"
   },
   {
-    "question": "أي سلسلة أفلام تتضمن حديقة مليئة بالديناصورات المستنسخة؟\n(Which movie franchise features a park full of cloned dinosaurs?)\n\nA) إنديانا جونز (Indiana Jones)\nB) حديقة الجوراسي (Jurassic Park)\nC) غودزيلا (Godzilla)\nD) كينغ كونغ (King Kong)",
-    "answer": "B) حديقة الجوراسي (Jurassic Park)"
+    "question": "أي سلسلة أفلام تتضمن حديقة مليئة بالديناصورات المستنسخة؟\n\nA) إنديانا جونز\nB) حديقة الجوراسي\nC) غودزيلا\nD) كينغ كونغ",
+    "answer": "B) حديقة الجوراسي"
   },
   {
-    "question": "ما هو أصل اختراع البيتزا؟\n(Where was pizza originally invented?)\n\nA) أمريكا (USA)\nB) اليونان (Greece)\nC) إيطاليا (Italy)\nD) فرنسا (France)",
-    "answer": "C) إيطاليا (Italy)"
+    "question": "ما هو أصل اختراع البيتزا؟\n\nA) أمريكا\nB) اليونان\nC) إيطاليا\nD) فرنسا",
+    "answer": "C) إيطاليا"
   },
   {
-    "question": "من كان فرعون مصر عندما بنيت الأهرامات الثلاثة؟\n(Who were the pharaohs when the three main Pyramids were built?)\n\nA) خوفو، خفرع، منقرع (Khufu, Khafre, Menkaure)\nB) رمسيس، توت عنخ آمون، أحمس (Ramses, Tutankhamun, Ahmose)\nC) كليوباترا، حتشبسوت، نفرتيتي (Cleopatra, Hatshepsut, Nefertiti)\nD) أمنحتب، تحتمس، سنفرو (Amenhotep, Thutmose, Sneferu)",
-    "answer": "A) خوفو، خفرع، منقرع (Khufu, Khafre, Menkaure)"
+    "question": "من كان فرعون مصر عندما بنيت الأهرامات الثلاثة؟\n\nA) خوفو، خفرع، منقرع\nB) رمسيس، توت عنخ آمون، أحمس\nC) كليوباترا، حتشبسوت، نفرتيتي\nD) أمنحتب، تحتمس، سنفرو",
+    "answer": "A) خوفو، خفرع، منقرع"
   },
   {
-    "question": "ما هو اسم الساحر الشرير في هاري بوتر؟\n(What is the name of the evil wizard in Harry Potter?)\n\nA) سيريوس بلاك (Sirius Black)\nB) فولدمورت (Voldemort)\nC) دراكو مالفوي (Draco Malfoy)\nD) سنايب (Snape)",
-    "answer": "B) فولدمورت (Voldemort)"
+    "question": "ما هو اسم الساحر الشرير في هاري بوتر؟\n\nA) سيريوس بلاك\nB) فولدمورت\nC) دراكو مالفوي\nD) سنايب",
+    "answer": "B) فولدمورت"
   },
   {
-    "question": "ما هو اسم العظمة التي توجد في أذن الإنسان وهي الأصغر في الجسم؟\n(What is the smallest bone in the human body, located in the ear?)\n\nA) الركاب (Stapes)\nB) السندان (Incus)\nC) المطرقة (Malleus)\nD) الفخذ (Femur)",
-    "answer": "A) الركاب (Stapes)"
+    "question": "ما هو اسم العظمة التي توجد في أذن الإنسان وهي الأصغر في الجسم؟\n\nA) الركاب\nB) السندان\nC) المطرقة\nD) الفخذ",
+    "answer": "A) الركاب"
   },
   {
-    "question": "من الذي اكتشف البنسلين؟\n(Who discovered Penicillin?)\n\nA) لويس باستير (Louis Pasteur)\nB) ألكسندر فلمنج (Alexander Fleming)\nC) ماري كوري (Marie Curie)\nD) توماس إديسون (Thomas Edison)",
-    "answer": "B) ألكسندر فلمنج (Alexander Fleming)"
+    "question": "من الذي اكتشف البنسلين؟\n\nA) لويس باستير\nB) ألكسندر فلمنج\nC) ماري كوري\nD) توماس إديسون",
+    "answer": "B) ألكسندر فلمنج"
   },
   {
-    "question": "ما هو الفيلم الذي فاز بأكبر عدد من جوائز الأوسكار (11 جائزة)؟\n(Which movie won the most Oscars - 11 awards?)\n\nA) العراب (The Godfather)\nB) تايتانيك (Titanic)\nC) سيد الخواتم: عودة الملك (Lord of the Rings: Return of the King)\nD) ب و ج (B and C)",
-    "answer": "D) ب و ج (B and C)"
+    "question": "ما هو الفيلم الذي فاز بأكبر عدد من جوائز الأوسكار (11 جائزة)؟\n\nA) العراب\nB) تايتانيك\nC) سيد الخواتم: عودة الملك\nD) ب و ج",
+    "answer": "D) ب و ج"
   },
   {
-    "question": "لماذا تمسح القطط وجوهها بأقدامها؟\n(Why do cats wipe their faces with their paws?)\n\nA) لتنظيف أنفسها (To clean themselves)\nB) لنشر رائحتها (To spread their scent)\nC) للعب (To play)\nD) أ و ب (A and B)",
-    "answer": "D) أ و ب (A and B)"
+    "question": "لماذا تمسح القطط وجوهها بأقدامها؟\n\nA) لتنظيف أنفسها\nB) لنشر رائحتها\nC) للعب\nD) أ و ب",
+    "answer": "D) أ و ب"
   },
   {
-    "question": "ما هي المعركة التي هُزم فيها نابليون بشكل نهائي؟\n(In which battle was Napoleon finally defeated?)\n\nA) معركة واترلو (Battle of Waterloo)\nB) معركة أوسترليتز (Battle of Austerlitz)\nC) معركة ترافالغار (Battle of Trafalgar)\nD) معركة لايبزيغ (Battle of Leipzig)",
-    "answer": "A) معركة واترلو (Battle of Waterloo)"
+    "question": "ما هي المعركة التي هُزم فيها نابليون بشكل نهائي؟\n\nA) معركة واترلو\nB) معركة أوسترليتز\nC) معركة ترافالغار\nD) معركة لايبزيغ",
+    "answer": "A) معركة واترلو"
   },
   {
-    "question": "ما هو الحيوان الذي لا يمتلك حبالاً صوتية؟\n(Which animal has no vocal cords?)\n\nA) الزرافة (Giraffe)\nB) الفيل (Elephant)\nC) القرد (Monkey)\nD) الحصان (Horse)",
-    "answer": "A) الزرافة (Giraffe)"
+    "question": "ما هو الحيوان الذي لا يمتلك حبالاً صوتية؟\n\nA) الزرافة\nB) الفيل\nC) القرد\nD) الحصان",
+    "answer": "A) الزرافة"
   },
   {
-    "question": "في فيلم (البحث عن نيمو)، ما هو نوع السمكة (دوري)؟\n(In 'Finding Nemo', what type of fish is Dory?)\n\nA) سمكة المهرج (Clownfish)\nB) سمكة التانغ الزرقاء (Blue Tang)\nC) القرش (Shark)\nD) الحوت (Whale)",
-    "answer": "B) سمكة التانغ الزرقاء (Blue Tang)"
+    "question": "في فيلم (البحث عن نيمو)، ما هو نوع السمكة (دوري)؟\n\nA) سمكة المهرج\nB) سمكة التانغ الزرقاء\nC) القرش\nD) الحوت",
+    "answer": "B) سمكة التانغ الزرقاء"
   },
   {
-    "question": "ما هي المدينة التي يُطلق عليها (مدينة التلال السبع)؟\n(Which city is called the 'City of Seven Hills'?)\n\nA) أثينا (Athens)\nB) باريس (Paris)\nC) إسطنبول (Istanbul)\nD) روما (Rome)",
-    "answer": "D) روما (Rome)"
+    "question": "ما هي المدينة التي يُطلق عليها (مدينة التلال السبع)؟\n\nA) أثينا\nB) باريس\nC) إسطنبول\nD) روما",
+    "answer": "D) روما"
   },
   {
-    "question": "من الذي اخترع المصباح الكهربائي التجاري؟\n(Who invented the commercial light bulb?)\n\nA) توماس إديسون (Thomas Edison)\nB) نيكولا تسلا (Nikola Tesla)\nC) ألكسندر جراهام بيل (Alexander Graham Bell)\nD) بنيامين فرانكلين (Benjamin Franklin)",
-    "answer": "A) توماس إديسون (Thomas Edison)"
+    "question": "من الذي اخترع المصباح الكهربائي التجاري؟\n\nA) توماس إديسون\nB) نيكولا تسلا\nC) ألكسندر جراهام بيل\nD) بنيامين فرانكلين",
+    "answer": "A) توماس إديسون"
   },
   {
-    "question": "من لعب دور القبطان جاك سبارو في قراصنة الكاريبي؟\n(Who played Captain Jack Sparrow in Pirates of the Caribbean?)\n\nA) براد بيت (Brad Pitt)\nB) جوني ديب (Johnny Depp)\nC) ليوناردو دي كابريو (Leonardo DiCaprio)\nD) توم كروز (Tom Cruise)",
-    "answer": "B) جوني ديب (Johnny Depp)"
+    "question": "من لعب دور القبطان جاك سبارو في قراصنة الكاريبي؟\n\nA) براد بيت\nB) جوني ديب\nC) ليوناردو دي كابريو\nD) توم كروز",
+    "answer": "B) جوني ديب"
   },
   {
-    "question": "كم تبلغ درجة حرارة جسم القط الطبيعية؟\n(What is a cat's normal body temperature?)\n\nA) 37 درجة مئوية (37 C)\nB) 38-39 درجة مئوية (38-39 C)\nC) 40 درجة مئوية (40 C)\nD) 36 درجة مئوية (36 C)",
-    "answer": "B) 38-39 درجة مئوية (38-39 C)"
+    "question": "كم تبلغ درجة حرارة جسم القط الطبيعية؟\n\nA) 37 درجة مئوية\nB) 38-39 درجة مئوية\nC) 40 درجة مئوية\nD) 36 درجة مئوية",
+    "answer": "B) 38-39 درجة مئوية"
   },
   {
-    "question": "في أي بلد بدأت الثورة الصناعية؟\n(In which country did the Industrial Revolution begin?)\n\nA) فرنسا (France)\nB) ألمانيا (Germany)\nC) الولايات المتحدة (USA)\nD) بريطانيا (Britain)",
-    "answer": "D) بريطانيا (Britain)"
+    "question": "في أي بلد بدأت الثورة الصناعية؟\n\nA) فرنسا\nB) ألمانيا\nC) الولايات المتحدة\nD) بريطانيا",
+    "answer": "D) بريطانيا"
   },
   {
-    "question": "ما هو الغاز الذي يشكل معظم الغلاف الجوي للأرض؟\n(Which gas makes up most of Earth's atmosphere?)\n\nA) الأكسجين (Oxygen)\nB) النيتروجين (Nitrogen)\nC) ثاني أكسيد الكربون (Carbon Dioxide)\nD) الهيليوم (Helium)",
-    "answer": "B) النيتروجين (Nitrogen)"
+    "question": "ما هو الغاز الذي يشكل معظم الغلاف الجوي للأرض؟\n\nA) الأكسجين\nB) النيتروجين\nC) ثاني أكسيد الكربون\nD) الهيليوم",
+    "answer": "B) النيتروجين"
   },
   {
-    "question": "في فيلم (سبايدرمان)، ما هي المهنة التي يعمل بها بيتر باركر؟\n(In 'Spider-Man', what is Peter Parker's profession?)\n\nA) طبيب (Doctor)\nB) مصور صحفي (Photojournalist)\nC) محامي (Lawyer)\nD) شرطي (Police Officer)",
-    "answer": "B) مصور صحفي (Photojournalist)"
+    "question": "في فيلم (سبايدرمان)، ما هي المهنة التي يعمل بها بيتر باركر؟\n\nA) طبيب\nB) مصور صحفي\nC) محامي\nD) شرطي",
+    "answer": "B) مصور صحفي"
   },
   {
-    "question": "ما هو أطول سور في العالم؟\n(What is the longest wall in the world?)\n\nA) سور برلين (Berlin Wall)\nB) سور الصين العظيم (Great Wall of China)\nC) جدار هادريان (Hadrian's Wall)\nD) جدار الكرملين (Kremlin Wall)",
-    "answer": "B) سور الصين العظيم (Great Wall of China)"
+    "question": "ما هو أطول سور في العالم؟\n\nA) سور برلين\nB) سور الصين العظيم\nC) جدار هادريان\nD) جدار الكرملين",
+    "answer": "B) سور الصين العظيم"
   },
   {
-    "question": "ما هي ديانة الإمبراطورية البيزنطية؟\n(What was the religion of the Byzantine Empire?)\n\nA) الإسلام (Islam)\nB) الوثنية (Paganism)\nC) المسيحية الأرثوذكسية (Orthodox Christianity)\nD) اليهودية (Judaism)",
-    "answer": "C) المسيحية الأرثوذكسية (Orthodox Christianity)"
+    "question": "ما هي ديانة الإمبراطورية البيزنطية؟\n\nA) الإسلام\nB) الوثنية\nC) المسيحية الأرثوذكسية\nD) اليهودية",
+    "answer": "C) المسيحية الأرثوذكسية"
   },
   {
-    "question": "أي شخصية متحركة تقول: (أنا أحب العناق الدافئ)؟\n(Which animated character says: 'I like warm hugs'?)\n\nA) أولاف (Olaf)\nB) شريك (Shrek)\nC) ويني الدبدوب (Winnie the Pooh)\nD) بايماكس (Baymax)",
-    "answer": "A) أولاف (Olaf)"
+    "question": "أي شخصية متحركة تقول: (أنا أحب العناق الدافئ)؟\n\nA) أولاف\nB) شريك\nC) ويني الدبدوب\nD) بايماكس",
+    "answer": "A) أولاف"
   },
   {
-    "question": "ما هو اسم العظمة الأكبر في جسم الإنسان؟\n(What is the largest bone in the human body?)\n\nA) الجمجمة (Skull)\nB) الفخذ (Femur)\nC) الساق (Tibia)\nD) العمود الفقري (Spine)",
-    "answer": "B) الفخذ (Femur)"
+    "question": "ما هو اسم العظمة الأكبر في جسم الإنسان؟\n\nA) الجمجمة\nB) الفخذ\nC) الساق\nD) العمود الفقري",
+    "answer": "B) الفخذ"
   },
   {
-    "question": "في أي مدينة تم اغتيال الأرشيدوق فرانز فرديناند، مما أشعل الحرب العالمية الأولى؟\n(In which city was Archduke Franz Ferdinand assassinated, sparking WWI?)\n\nA) فيينا (Vienna)\nB) سراييفو (Sarajevo)\nC) برلين (Berlin)\nD) بلغراد (Belgrade)",
-    "answer": "B) سراييفو (Sarajevo)"
+    "question": "في أي مدينة تم اغتيال الأرشيدوق فرانز فرديناند، مما أشعل الحرب العالمية الأولى؟\n\nA) فيينا\nB) سراييفو\nC) برلين\nD) بلغراد",
+    "answer": "B) سراييفو"
   },
   {
-    "question": "من هو الممثل الذي أدى صوت (موفاسا) في الأسد الملك و(دارث فيدر) في حرب النجوم؟\n(Who voiced Mufasa in The Lion King and Darth Vader in Star Wars?)\n\nA) مورغان فريمان (Morgan Freeman)\nB) جيمس إيرل جونز (James Earl Jones)\nC) صامويل إل جاكسون (Samuel L. Jackson)\nD) باتريك ستيوارت (Patrick Stewart)",
-    "answer": "B) جيمس إيرل جونز (James Earl Jones)"
+    "question": "من هو الممثل الذي أدى صوت (موفاسا) في الأسد الملك و(دارث فيدر) في حرب النجوم؟\n\nA) مورغان فريمان\nB) جيمس إيرل جونز\nC) صامويل إل جاكسون\nD) باتريك ستيوارت",
+    "answer": "B) جيمس إيرل جونز"
   },
   {
-    "question": "هل تستطيع القطط تذوق الحلويات؟\n(Can cats taste sweets?)\n\nA) نعم (Yes)\nB) لا (No)\nC) في الصغر فقط (Only when young)\nD) تعتمد على الفصيلة (Depends on the breed)",
-    "answer": "B) لا (No)"
+    "question": "هل تستطيع القطط تذوق الحلويات؟\n\nA) نعم\nB) لا\nC) في الصغر فقط\nD) تعتمد على الفصيلة",
+    "answer": "B) لا"
   },
   {
-    "question": "ما هي الامبراطورية التي بنَت مدينة ماتشو بيتشو؟\n(Which empire built the city of Machu Picchu?)\n\nA) المايا (Maya)\nB) الأزتيك (Aztecs)\nC) الإنكا (Inca)\nD) الأولمك (Olmec)",
-    "answer": "C) الإنكا (Inca)"
+    "question": "ما هي الامبراطورية التي بنَت مدينة ماتشو بيتشو؟\n\nA) المايا\nB) الأزتيك\nC) الإنكا\nD) الأولمك",
+    "answer": "C) الإنكا"
   },
   {
-    "question": "ما هو أقرب كوكب للشمس؟\n(What is the closest planet to the Sun?)\n\nA) عطارد (Mercury)\nB) الزهرة (Venus)\nC) الأرض (Earth)\nD) المريخ (Mars)",
-    "answer": "A) عطارد (Mercury)"
+    "question": "ما هو أقرب كوكب للشمس؟\n\nA) عطارد\nB) الزهرة\nC) الأرض\nD) المريخ",
+    "answer": "A) عطارد"
   },
   {
-    "question": "أي فيلم من إخراج كوينتن تارانتينو يتضمن حقيبة غامضة مشعة؟\n(Which Quentin Tarantino movie features a mysterious glowing briefcase?)\n\nA) خيال رخيص (Pulp Fiction)\nB) كلاب المستودع (Reservoir Dogs)\nC) أقتل بيل (Kill Bill)\nD) جانغو الحر (Django Unchained)",
-    "answer": "A) خيال رخيص (Pulp Fiction)"
+    "question": "أي فيلم من إخراج كوينتن تارانتينو يتضمن حقيبة غامضة مشعة؟\n\nA) خيال رخيص\nB) كلاب المستودع\nC) أقتل بيل\nD) جانغو الحر",
+    "answer": "A) خيال رخيص"
   },
   {
-    "question": "من هو القائد الإسلامي الذي استعاد القدس في معركة حطين؟\n(Which Islamic leader recaptured Jerusalem at the Battle of Hattin?)\n\nA) صلاح الدين الأيوبي (Saladin)\nB) طارق بن زياد (Tariq ibn Ziyad)\nC) خالد بن الوليد (Khalid ibn al-Walid)\nD) عمر بن الخطاب (Umar ibn al-Khattab)",
-    "answer": "A) صلاح الدين الأيوبي (Saladin)"
+    "question": "من هو القائد الإسلامي الذي استعاد القدس في معركة حطين؟\n\nA) صلاح الدين الأيوبي\nB) طارق بن زياد\nC) خالد بن الوليد\nD) عمر بن الخطاب",
+    "answer": "A) صلاح الدين الأيوبي"
   },
   {
-    "question": "كم عدد الألوان في علم فرنسا؟\n(How many colors are in the flag of France?)\n\nA) 2\nB) 3\nC) 4\nD) 5",
+    "question": "كم عدد الألوان في علم فرنسا؟\n\nA) 2\nB) 3\nC) 4\nD) 5",
     "answer": "B) 3"
   },
   {
-    "question": "ما هو الاسم الأول للمخرج (هيتشكوك)؟\n(What is the first name of director Hitchcock?)\n\nA) روبرت (Robert)\nB) جيمس (James)\nC) ألفريد (Alfred)\nD) وليام (William)",
-    "answer": "C) ألفريد (Alfred)"
+    "question": "ما هو الاسم الأول للمخرج (هيتشكوك)؟\n\nA) روبرت\nB) جيمس\nC) ألفريد\nD) وليام",
+    "answer": "C) ألفريد"
   },
   {
-    "question": "ما هي السلالة القططية التي لا تمتلك ذيلاً تقريباً؟\n(Which cat breed has almost no tail?)\n\nA) السيامي (Siamese)\nB) الشيرازي (Persian)\nC) المانكس (Manx)\nD) البنغالي (Bengal)",
-    "answer": "C) المانكس (Manx)"
+    "question": "ما هي السلالة القططية التي لا تمتلك ذيلاً تقريباً؟\n\nA) السيامي\nB) الشيرازي\nC) المانكس\nD) البنغالي",
+    "answer": "C) المانكس"
   },
   {
-    "question": "متى سقطت جدار برلين؟\n(When did the Berlin Wall fall?)\n\nA) 1985\nB) 1989\nC) 1991\nD) 1995",
+    "question": "متى سقطت جدار برلين؟\n\nA) 1985\nB) 1989\nC) 1991\nD) 1995",
     "answer": "B) 1989"
   },
   {
-    "question": "ما هي أكبر الثدييات على وجه الأرض؟\n(What is the largest mammal on Earth?)\n\nA) الفيل الأفريقي (African Elephant)\nB) الحوت الأزرق (Blue Whale)\nC) وحيد القرن (Rhinoceros)\nD) فرس النهر (Hippopotamus)",
-    "answer": "B) الحوت الأزرق (Blue Whale)"
+    "question": "ما هي أكبر الثدييات على وجه الأرض؟\n\nA) الفيل الأفريقي\nB) الحوت الأزرق\nC) وحيد القرن\nD) فرس النهر",
+    "answer": "B) الحوت الأزرق"
   },
   {
-    "question": "في فيلم (وحدي في المنزل)، ما هو اسم الطفل البطل؟\n(In 'Home Alone', what is the name of the child hero?)\n\nA) كيفن (Kevin)\nB) أليكس (Alex)\nC) بيتر (Peter)\nD) مايكل (Michael)",
-    "answer": "A) كيفن (Kevin)"
+    "question": "في فيلم (وحدي في المنزل)، ما هو اسم الطفل البطل؟\n\nA) كيفن\nB) أليكس\nC) بيتر\nD) مايكل",
+    "answer": "A) كيفن"
   },
   {
-    "question": "من كان الفيلسوف اليوناني الذي تتلمذ على يد سقراط وعلم أرسطو؟\n(Which Greek philosopher was a student of Socrates and taught Aristotle?)\n\nA) فيثاغورس (Pythagoras)\nB) أفلاطون (Plato)\nC) هوميروس (Homer)\nD) إبيقور (Epicurus)",
-    "answer": "B) أفلاطون (Plato)"
+    "question": "من كان الفيلسوف اليوناني الذي تتلمذ على يد سقراط وعلم أرسطو؟\n\nA) فيثاغورس\nB) أفلاطون\nC) هوميروس\nD) إبيقور",
+    "answer": "B) أفلاطون"
   },
   {
-    "question": "أي عنصر يمثل الحرف K في الجدول الدوري؟\n(Which element does the letter K represent in the periodic table?)\n\nA) الكريبتون (Krypton)\nB) البوتاسيوم (Potassium)\nC) الكالسيوم (Calcium)\nD) الصوديوم (Sodium)",
-    "answer": "B) البوتاسيوم (Potassium)"
+    "question": "أي عنصر يمثل الحرف K في الجدول الدوري؟\n\nA) الكريبتون\nB) البوتاسيوم\nC) الكالسيوم\nD) الصوديوم",
+    "answer": "B) البوتاسيوم"
   }
 ]

@@ -1,122 +1,122 @@
 [
   {
-    "question": "ولد يتيم يكتشف أنه ساحر ويذهب إلى مدرسة للسحر لمحاربة الشرير الذي قتل والديه.\n(An orphan boy discovers he's a wizard and goes to a magic school to fight the villain who killed his parents.)",
-    "answer": "هاري بوتر (Harry Potter)"
+    "question": "ولد يتيم يكتشف أنه ساحر ويذهب إلى مدرسة للسحر لمحاربة الشرير الذي قتل والديه.",
+    "answer": "هاري بوتر"
   },
   {
-    "question": "رجل ثري جداً يرتدي زي خفاش لمحاربة الجريمة في مدينته المظلمة.\n(A very rich man dresses as a bat to fight crime in his dark city.)",
-    "answer": "باتمان (Batman)"
+    "question": "رجل ثري جداً يرتدي زي خفاش لمحاربة الجريمة في مدينته المظلمة.",
+    "answer": "باتمان"
   },
   {
-    "question": "سفينة عملاقة تصطدم بجبل جليدي وتغرق، بينما يقع شاب فقير وفتاة غنية في الحب.\n(A giant ship hits an iceberg and sinks, while a poor boy and rich girl fall in love.)",
-    "answer": "تايتانيك (Titanic)"
+    "question": "سفينة عملاقة تصطدم بجبل جليدي وتغرق، بينما يقع شاب فقير وفتاة غنية في الحب.",
+    "answer": "تايتانيك"
   },
   {
-    "question": "لص يسرق أسرار الناس من خلال الدخول إلى أحلامهم.\n(A thief steals people's secrets by entering their dreams.)",
-    "answer": "استهلال (Inception)"
+    "question": "لص يسرق أسرار الناس من خلال الدخول إلى أحلامهم.",
+    "answer": "استهلال"
   },
   {
-    "question": "رجل بسيط يمتلك ذكاءً محدوداً يشارك بالصدفة في أهم أحداث التاريخ الأمريكي.\n(A simple man with low IQ accidentally participates in the most important events in American history.)",
-    "answer": "فورست غامب (Forrest Gump)"
+    "question": "رجل بسيط يمتلك ذكاءً محدوداً يشارك بالصدفة في أهم أحداث التاريخ الأمريكي.",
+    "answer": "فورست غامب"
   },
   {
-    "question": "مجموعة من الأبطال الخارقين يتحدون معاً لإيقاف فضائي أرجواني من مسح نصف الكائنات الحية.\n(A group of superheroes team up to stop a purple alien from wiping out half of all living creatures.)",
-    "answer": "المنتقمون: حرب اللانهاية / نهاية اللعبة\n(Avengers: Infinity War / Endgame)"
+    "question": "مجموعة من الأبطال الخارقين يتحدون معاً لإيقاف فضائي أرجواني من مسح نصف الكائنات الحية.",
+    "answer": "المنتقمون: حرب اللانهاية / نهاية اللعبة"
   },
   {
-    "question": "أستاذ كيمياء مصاب بالسرطان يتحول إلى صانع مخدرات خطير لتأمين مستقبل عائلته.\n(A chemistry teacher with cancer turns into a dangerous drug kingpin to secure his family's future.)",
-    "answer": "اختلال ضال (Breaking Bad)"
+    "question": "أستاذ كيمياء مصاب بالسرطان يتحول إلى صانع مخدرات خطير لتأمين مستقبل عائلته.",
+    "answer": "اختلال ضال"
   },
   {
-    "question": "أسد صغير يُطرد من مملكته بعد مقتل والده، ثم يعود ليطالب بعرشه.\n(A young lion is exiled from his kingdom after his father's death, then returns to claim his throne.)",
-    "answer": "الأسد الملك (The Lion King)"
+    "question": "أسد صغير يُطرد من مملكته بعد مقتل والده، ثم يعود ليطالب بعرشه.",
+    "answer": "الأسد الملك"
   },
   {
-    "question": "رجل يُترك وحيداً على كوكب المريخ ويجب عليه زراعة البطاطس للنجاة حتى يتم إنقاذه.\n(A man is left alone on Mars and must grow potatoes to survive until he gets rescued.)",
-    "answer": "المريخي (The Martian)"
+    "question": "رجل يُترك وحيداً على كوكب المريخ ويجب عليه زراعة البطاطس للنجاة حتى يتم إنقاذه.",
+    "answer": "المريخي"
   },
   {
-    "question": "فتاة تتطوع للقتال في ألعاب مميتة بدلاً من أختها الصغرى لتبقى على قيد الحياة.\n(A girl volunteers to fight in deadly games instead of her younger sister to survive.)",
-    "answer": "ألعاب الجوع (The Hunger Games)"
+    "question": "فتاة تتطوع للقتال في ألعاب مميتة بدلاً من أختها الصغرى لتبقى على قيد الحياة.",
+    "answer": "ألعاب الجوع"
   },
   {
-    "question": "مجموعة من اللصوص يرتدون أقنعة سلفادور دالي يقومون بأكبر عملية سطو في إسبانيا.\n(A group of thieves wearing Salvador Dali masks commit the biggest heist in Spain.)",
-    "answer": "لا كاسا دي بابيل / البروفيسور (Money Heist)"
+    "question": "مجموعة من اللصوص يرتدون أقنعة سلفادور دالي يقومون بأكبر عملية سطو في إسبانيا.",
+    "answer": "لا كاسا دي بابيل / البروفيسور"
   },
   {
-    "question": "مراهق يتعرض للدغة عنكبوت مشع ويكتسب قوى خارقة للقفز بين المباني.\n(A teenager is bitten by a radioactive spider and gains superpowers to swing between buildings.)",
-    "answer": "الرجل العنكبوت (Spider-Man)"
+    "question": "مراهق يتعرض للدغة عنكبوت مشع ويكتسب قوى خارقة للقفز بين المباني.",
+    "answer": "الرجل العنكبوت"
   },
   {
-    "question": "رجل يكتشف أن العالم الذي يعيش فيه هو مجرد محاكاة كمبيوتر تسيطر عليها الآلات.\n(A man discovers that the world he lives in is just a computer simulation controlled by machines.)",
-    "answer": "الماتريكس (The Matrix)"
+    "question": "رجل يكتشف أن العالم الذي يعيش فيه هو مجرد محاكاة كمبيوتر تسيطر عليها الآلات.",
+    "answer": "الماتريكس"
   },
   {
-    "question": "طفل يُترك وحيداً في المنزل في عيد الميلاد ويجب عليه الدفاع عن منزله ضد لصين غبيين.\n(A kid is left home alone on Christmas and must defend his house against two foolish burglars.)",
-    "answer": "وحدي في المنزل (Home Alone)"
+    "question": "طفل يُترك وحيداً في المنزل في عيد الميلاد ويجب عليه الدفاع عن منزله ضد لصين غبيين.",
+    "answer": "وحدي في المنزل"
   },
   {
-    "question": "سمكة صغيرة تضيع في المحيط ويقوم والدها برحلة طويلة وخطيرة للبحث عنها بمساعدة سمكة فاقدة للذاكرة.\n(A little fish gets lost in the ocean and his dad goes on a long, dangerous journey to find him with the help of an amnesiac fish.)",
-    "answer": "البحث عن نيمو (Finding Nemo)"
+    "question": "سمكة صغيرة تضيع في المحيط ويقوم والدها برحلة طويلة وخطيرة للبحث عنها بمساعدة سمكة فاقدة للذاكرة.",
+    "answer": "البحث عن نيمو"
   },
   {
-    "question": "مجموعة من الأشخاص يزورون حديقة ترفيهية مليئة بالديناصورات المستنسخة التي تخرج عن السيطرة.\n(A group of people visit a theme park full of cloned dinosaurs that break loose.)",
-    "answer": "حديقة الجوراسي (Jurassic Park)"
+    "question": "مجموعة من الأشخاص يزورون حديقة ترفيهية مليئة بالديناصورات المستنسخة التي تخرج عن السيطرة.",
+    "answer": "حديقة الجوراسي"
   },
   {
-    "question": "عصابة من المافيا الإيطالية في أمريكا يتولى إدارتها الابن الأصغر بعد محاولة اغتيال والده.\n(An Italian mafia family in America is taken over by the youngest son after an assassination attempt on his father.)",
-    "answer": "العراب (The Godfather)"
+    "question": "عصابة من المافيا الإيطالية في أمريكا يتولى إدارتها الابن الأصغر بعد محاولة اغتيال والده.",
+    "answer": "العراب"
   },
   {
-    "question": "فتاة صغيرة تدخل إلى عالم سحري عبر باب صغير وتجد أمها الأخرى بعيون من أزرار.\n(A little girl enters a magical world through a small door and finds her 'other mother' with button eyes.)",
-    "answer": "كورالاين (Coraline)"
+    "question": "فتاة صغيرة تدخل إلى عالم سحري عبر باب صغير وتجد أمها الأخرى بعيون من أزرار.",
+    "answer": "كورالاين"
   },
   {
-    "question": "أميرة أمريكية تتزوج من أمير بريطاني وتواجه تحديات مع العائلة المالكة قبل أن ينفصلا.\n(An American actress marries a British prince and faces challenges with the royal family.)",
-    "answer": "التاج (The Crown) / هاري وميغان"
+    "question": "أميرة أمريكية تتزوج من أمير بريطاني وتواجه تحديات مع العائلة المالكة قبل أن ينفصلا.",
+    "answer": "التاج / هاري وميغان"
   },
   {
-    "question": "عالم يسافر في الفضاء عبر ثقب دودي للبحث عن كوكب جديد لإنقاذ البشرية ويترك ابنته خلفه.\n(A scientist travels through a wormhole in space to find a new planet to save humanity, leaving his daughter behind.)",
-    "answer": "بين النجوم (Interstellar)"
+    "question": "عالم يسافر في الفضاء عبر ثقب دودي للبحث عن كوكب جديد لإنقاذ البشرية ويترك ابنته خلفه.",
+    "answer": "بين النجوم"
   },
   {
-    "question": "قاتل محترف يعود للانتقام بعد أن قام أحدهم بقتل كلبه الصغير الذي أهدته له زوجته الراحلة.\n(A retired hitman seeks revenge after someone kills the little dog gifted to him by his late wife.)",
-    "answer": "جون ويك (John Wick)"
+    "question": "قاتل محترف يعود للانتقام بعد أن قام أحدهم بقتل كلبه الصغير الذي أهدته له زوجته الراحلة.",
+    "answer": "جون ويك"
   },
   {
-    "question": "عائلات نبيلة تتصارع في عالم خيالي للسيطرة على العرش الحديدي بينما يهدد الموتى الأحياء الجميع من الشمال.\n(Noble families fight in a fantasy world to control the Iron Throne while the undead threaten everyone from the North.)",
-    "answer": "صراع العروش (Game of Thrones)"
+    "question": "عائلات نبيلة تتصارع في عالم خيالي للسيطرة على العرش الحديدي بينما يهدد الموتى الأحياء الجميع من الشمال.",
+    "answer": "صراع العروش"
   },
   {
-    "question": "أربعة أطفال يدخلون عالم سحري مليء بالثلوج عبر خزانة ملابس لمحاربة الساحرة البيضاء.\n(Four children enter a snowy magical world through a wardrobe to fight the White Witch.)",
-    "answer": "سجلات نارنيا (The Chronicles of Narnia)"
+    "question": "أربعة أطفال يدخلون عالم سحري مليء بالثلوج عبر خزانة ملابس لمحاربة الساحرة البيضاء.",
+    "answer": "سجلات نارنيا"
   },
   {
-    "question": "شاب وفتاة مصابان بالسرطان يقعان في الحب ويسافران إلى أمستردام للقاء مؤلفهما المفضل.\n(Two teens with cancer fall in love and travel to Amsterdam to meet their favorite author.)",
-    "answer": "ما تخبئه لنا النجوم (The Fault in Our Stars)"
+    "question": "شاب وفتاة مصابان بالسرطان يقعان في الحب ويسافران إلى أمستردام للقاء مؤلفهما المفضل.",
+    "answer": "ما تخبئه لنا النجوم"
   },
   {
-    "question": "أطفال بلدة صغيرة يحاربون وحشاً يتخذ شكل مهرج يظهر كل 27 عاماً.\n(Small-town kids fight a shape-shifting monster that takes the form of a clown every 27 years.)",
-    "answer": "إت (IT)"
+    "question": "أطفال بلدة صغيرة يحاربون وحشاً يتخذ شكل مهرج يظهر كل 27 عاماً.",
+    "answer": "إت"
   },
   {
-    "question": "محقق غريب الأطوار يستخدم ذكاءه وملاحظته الدقيقة لحل الجرائم المعقدة في لندن مع صديقه الطبيب.\n(An eccentric detective uses his genius and keen observation to solve complex crimes in London with his doctor friend.)",
-    "answer": "شرلوك (Sherlock)"
+    "question": "محقق غريب الأطوار يستخدم ذكاءه وملاحظته الدقيقة لحل الجرائم المعقدة في لندن مع صديقه الطبيب.",
+    "answer": "شرلوك"
   },
   {
-    "question": "رجل يكتشف بالصدفة أن حياته كلها عبارة عن برنامج تلفزيون واقعي يُبث للعالم أجمع.\n(A man accidentally discovers that his entire life is a reality TV show broadcast to the whole world.)",
-    "answer": "عرض ترومان (The Truman Show)"
+    "question": "رجل يكتشف بالصدفة أن حياته كلها عبارة عن برنامج تلفزيون واقعي يُبث للعالم أجمع.",
+    "answer": "عرض ترومان"
   },
   {
-    "question": "أميرة تهرب من قصرها وتحول كل ما تلمسه إلى جليد، وتضطر شقيقتها للبحث عنها.\n(A princess flees her palace, turning everything she touches into ice, and her sister must search for her.)",
-    "answer": "فروزن / ملكة الثلج (Frozen)"
+    "question": "أميرة تهرب من قصرها وتحول كل ما تلمسه إلى جليد، وتضطر شقيقتها للبحث عنها.",
+    "answer": "فروزن / ملكة الثلج"
   },
   {
-    "question": "لص وقبطان غريب الأطوار يبحثان عن سفينة مسروقة ويواجهان قراصنة ملعونين يتحولون إلى هياكل عظمية تحت ضوء القمر.\n(A thief and an eccentric captain search for a stolen ship and face cursed pirates who turn into skeletons in the moonlight.)",
-    "answer": "قراصنة الكاريبي (Pirates of the Caribbean)"
+    "question": "لص وقبطان غريب الأطوار يبحثان عن سفينة مسروقة ويواجهان قراصنة ملعونين يتحولون إلى هياكل عظمية تحت ضوء القمر.",
+    "answer": "قراصنة الكاريبي"
   },
   {
-    "question": "مئات الأشخاص المثقلين بالديون يشاركون في ألعاب أطفال تقليدية من أجل جائزة مالية ضخمة، لكن الخسارة تعني الموت.\n(Hundreds of debt-ridden people play traditional children's games for a massive cash prize, but losing means death.)",
-    "answer": "لعبة الحبار (Squid Game)"
+    "question": "مئات الأشخاص المثقلين بالديون يشاركون في ألعاب أطفال تقليدية من أجل جائزة مالية ضخمة، لكن الخسارة تعني الموت.",
+    "answer": "لعبة الحبار"
   }
 ]

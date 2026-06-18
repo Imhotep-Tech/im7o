@@ -1,102 +1,102 @@
 [
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) العناكب ليست حشرات، بل تنتمي لفصيلة العنكبيات.\n(Spiders are not insects, they belong to arachnids.)\n\n2) العناكب هي حشرات تمتلك 8 أرجل.\n(Spiders are insects that have 8 legs.)",
-    "answer": "1) العناكب ليست حشرات (Spiders are not insects)"
+    "question": "أيهما حقيقة؟\n\n1) العناكب ليست حشرات، بل تنتمي لفصيلة العنكبيات.\n\n2) العناكب هي حشرات تمتلك 8 أرجل.",
+    "answer": "1) العناكب ليست حشرات"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الأخطبوط لديه 3 قلوب ودمه أزرق.\n(An octopus has 3 hearts and blue blood.)\n\n2) الأخطبوط لديه قلب واحد كبير ودمه أخضر.\n(An octopus has 1 large heart and green blood.)",
-    "answer": "1) 3 قلوب ودم أزرق (3 hearts and blue blood)"
+    "question": "أيهما حقيقة؟\n\n1) الأخطبوط لديه 3 قلوب ودمه أزرق.\n\n2) الأخطبوط لديه قلب واحد كبير ودمه أخضر.",
+    "answer": "1) 3 قلوب ودم أزرق"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الفيل هو الحيوان الوحيد الذي لا يمكنه القفز.\n(The elephant is the only animal that can't jump.)\n\n2) فرس النهر هو الحيوان الوحيد الذي لا يمكنه القفز.\n(The hippopotamus is the only animal that can't jump.)",
-    "answer": "1) الفيل لا يمكنه القفز (The elephant can't jump)"
+    "question": "أيهما حقيقة؟\n\n1) الفيل هو الحيوان الوحيد الذي لا يمكنه القفز.\n\n2) فرس النهر هو الحيوان الوحيد الذي لا يمكنه القفز.",
+    "answer": "1) الفيل لا يمكنه القفز"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) السور العظيم في الصين يمكن رؤيته بوضوح من الفضاء بالعين المجردة.\n(The Great Wall of China is clearly visible from space with the naked eye.)\n\n2) السور العظيم لا يمكن رؤيته من الفضاء بالعين المجردة.\n(The Great Wall is NOT visible from space with the naked eye.)",
-    "answer": "2) لا يمكن رؤيته من الفضاء (Not visible from space)"
+    "question": "أيهما حقيقة؟\n\n1) السور العظيم في الصين يمكن رؤيته بوضوح من الفضاء بالعين المجردة.\n\n2) السور العظيم لا يمكن رؤيته من الفضاء بالعين المجردة.",
+    "answer": "2) لا يمكن رؤيته من الفضاء"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الفول السوداني هو نوع من المكسرات.\n(Peanuts are a type of nut.)\n\n2) الفول السوداني ليس من المكسرات، بل من البقوليات.\n(Peanuts are not nuts, they are legumes.)",
-    "answer": "2) الفول السوداني من البقوليات (Peanuts are legumes)"
+    "question": "أيهما حقيقة؟\n\n1) الفول السوداني هو نوع من المكسرات.\n\n2) الفول السوداني ليس من المكسرات، بل من البقوليات.",
+    "answer": "2) الفول السوداني من البقوليات"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الطماطم تعتبر من الفواكه من الناحية النباتية.\n(Tomatoes are botanically considered fruits.)\n\n2) الطماطم تعتبر من الخضروات الجذرية.\n(Tomatoes are considered root vegetables.)",
-    "answer": "1) الطماطم من الفواكه (Tomatoes are fruits)"
+    "question": "أيهما حقيقة؟\n\n1) الطماطم تعتبر من الفواكه من الناحية النباتية.\n\n2) الطماطم تعتبر من الخضروات الجذرية.",
+    "answer": "1) الطماطم من الفواكه"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الخفافيش عمياء تماماً وتعتمد على الصوت فقط.\n(Bats are completely blind and rely only on sound.)\n\n2) الخفافيش ليست عمياء ويمكنها الرؤية بشكل جيد.\n(Bats are not blind and can see quite well.)",
-    "answer": "2) الخفافيش ليست عمياء (Bats are not blind)"
+    "question": "أيهما حقيقة؟\n\n1) الخفافيش عمياء تماماً وتعتمد على الصوت فقط.\n\n2) الخفافيش ليست عمياء ويمكنها الرؤية بشكل جيد.",
+    "answer": "2) الخفافيش ليست عمياء"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) العسل لا يفسد أبداً، وقد تم العثور على عسل صالح للأكل في مقابر الفراعنة.\n(Honey never spoils, edible honey was found in Pharaoh tombs.)\n\n2) العسل يفسد بعد 50 عاماً إذا لم يتم حفظه في الثلاجة.\n(Honey spoils after 50 years if not refrigerated.)",
-    "answer": "1) العسل لا يفسد أبداً (Honey never spoils)"
+    "question": "أيهما حقيقة؟\n\n1) العسل لا يفسد أبداً، وقد تم العثور على عسل صالح للأكل في مقابر الفراعنة.\n\n2) العسل يفسد بعد 50 عاماً إذا لم يتم حفظه في الثلاجة.",
+    "answer": "1) العسل لا يفسد أبداً"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) البشر يستخدمون 10% فقط من أدمغتهم.\n(Humans only use 10% of their brains.)\n\n2) البشر يستخدمون كل جزء من أدمغتهم تقريباً.\n(Humans use almost every part of their brains.)",
-    "answer": "2) نستخدم أدمغتنا بالكامل (We use almost our entire brain)"
+    "question": "أيهما حقيقة؟\n\n1) البشر يستخدمون 10% فقط من أدمغتهم.\n(Humans only use 10% of their brains.)\n\n2) البشر يستخدمون كل جزء من أدمغتهم تقريباً.",
+    "answer": "2) نستخدم أدمغتنا بالكامل"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) النعامة تدفن رأسها في الرمال عند الشعور بالخطر.\n(Ostriches bury their heads in the sand when sensing danger.)\n\n2) النعامة لا تدفن رأسها في الرمال، بل تستلقي وتضع رأسها على الأرض لتختبئ.\n(Ostriches lay flat and rest their heads on the ground to hide, they don't bury it.)",
-    "answer": "2) النعامة لا تدفن رأسها (Ostriches don't bury their heads)"
+    "question": "أيهما حقيقة؟\n\n1) النعامة تدفن رأسها في الرمال عند الشعور بالخطر.\n\n2) النعامة لا تدفن رأسها في الرمال، بل تستلقي وتضع رأسها على الأرض لتختبئ.",
+    "answer": "2) النعامة لا تدفن رأسها"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الثيران تكره اللون الأحمر ويثير غضبها.\n(Bulls hate the color red and it makes them angry.)\n\n2) الثيران مصابة بعمى الألوان تجاه اللون الأحمر، وما يغضبها هو حركة قطعة القماش.\n(Bulls are colorblind to red, it's the movement of the cape that angers them.)",
-    "answer": "2) الثيران لا ترى اللون الأحمر (Bulls are colorblind to red)"
+    "question": "أيهما حقيقة؟\n\n1) الثيران تكره اللون الأحمر ويثير غضبها.\n\n2) الثيران مصابة بعمى الألوان تجاه اللون الأحمر، وما يغضبها هو حركة قطعة القماش.",
+    "answer": "2) الثيران لا ترى اللون الأحمر"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الماء الساخن يتجمد أسرع من الماء البارد في بعض الحالات.\n(Hot water freezes faster than cold water in some cases.)\n\n2) الماء البارد يتجمد دائماً أسرع من الماء الساخن في كل الحالات.\n(Cold water always freezes faster than hot water.)",
-    "answer": "1) الماء الساخن يتجمد أسرع - تأثير مبيمبا (Hot water freezes faster - Mpemba effect)"
+    "question": "أيهما حقيقة؟\n\n1) الماء الساخن يتجمد أسرع من الماء البارد في بعض الحالات.\n\n2) الماء البارد يتجمد دائماً أسرع من الماء الساخن في كل الحالات.",
+    "answer": "1) الماء الساخن يتجمد أسرع - تأثير مبيمبا"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الأسماك الذهبية (Goldfish) لديها ذاكرة تدوم لثلاث ثوانٍ فقط.\n(Goldfish have a memory span of only three seconds.)\n\n2) الأسماك الذهبية تمتلك ذاكرة يمكن أن تدوم لعدة أشهر.\n(Goldfish have memories that can last for months.)",
-    "answer": "2) ذاكرتها تدوم لعدة أشهر (Memory lasts for months)"
+    "question": "أيهما حقيقة؟\n\n1) الأسماك الذهبية لديها ذاكرة تدوم لثلاث ثوانٍ فقط.\n\n2) الأسماك الذهبية تمتلك ذاكرة يمكن أن تدوم لعدة أشهر.",
+    "answer": "2) ذاكرتها تدوم لعدة أشهر"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) البرق لا يضرب نفس المكان مرتين أبداً.\n(Lightning never strikes the same place twice.)\n\n2) البرق يمكن أن يضرب نفس المكان عدة مرات، ومبنى إمباير ستيت يُضرب حوالي 25 مرة سنوياً.\n(Lightning can strike the same place multiple times, the Empire State Building gets hit ~25 times a year.)",
-    "answer": "2) البرق يضرب نفس المكان مراراً (Lightning strikes the same place multiple times)"
+    "question": "أيهما حقيقة؟\n\n1) البرق لا يضرب نفس المكان مرتين أبداً.\n\n2) البرق يمكن أن يضرب نفس المكان عدة مرات، ومبنى إمباير ستيت يُضرب حوالي 25 مرة سنوياً.\n(Lightning can strike the same place multiple times, the Empire State Building gets hit ~25 times a year.)",
+    "answer": "2) البرق يضرب نفس المكان مراراً"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الفراولة ليست توتاً حقيقياً (Berry)، بينما الموز يُعتبر توتاً من الناحية العلمية.\n(Strawberries are not true berries, but bananas are botanically berries.)\n\n2) الفراولة هي التوت الحقيقي الوحيد، والموز يُعتبر من فصيلة الحمضيات.\n(Strawberries are the only true berries, and bananas are citrus.)",
-    "answer": "1) الفراولة ليست توتاً والموز توت! (Strawberries aren't berries, bananas are)"
+    "question": "أيهما حقيقة؟\n\n1) الفراولة ليست توتاً حقيقياً، بينما الموز يُعتبر توتاً من الناحية العلمية.\n\n2) الفراولة هي التوت الحقيقي الوحيد، والموز يُعتبر من فصيلة الحمضيات.",
+    "answer": "1) الفراولة ليست توتاً والموز توت!"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الدببة القطبية تمتلك فرواً أبيض وبشرة بيضاء.\n(Polar bears have white fur and white skin.)\n\n2) الدببة القطبية تمتلك بشراً سوداء اللون وشعرها شفاف وليس أبيض.\n(Polar bears have black skin and their hair is transparent, not white.)",
-    "answer": "2) بشرتها سوداء وشعرها شفاف (Black skin and transparent hair)"
+    "question": "أيهما حقيقة؟\n\n1) الدببة القطبية تمتلك فرواً أبيض وبشرة بيضاء.\n\n2) الدببة القطبية تمتلك بشراً سوداء اللون وشعرها شفاف وليس أبيض.",
+    "answer": "2) بشرتها سوداء وشعرها شفاف"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) برج إيفل في الصيف يزداد طوله بحوالي 15 سنتيمتراً بسبب تمدد الحديد.\n(The Eiffel Tower grows about 15 cm taller in the summer due to iron expansion.)\n\n2) برج إيفل يتقلص في الصيف ويزداد طوله في الشتاء.\n(The Eiffel Tower shrinks in the summer and grows in the winter.)",
-    "answer": "1) يزداد طوله في الصيف (Grows taller in the summer)"
+    "question": "أيهما حقيقة؟\n\n1) برج إيفل في الصيف يزداد طوله بحوالي 15 سنتيمتراً بسبب تمدد الحديد.\n\n2) برج إيفل يتقلص في الصيف ويزداد طوله في الشتاء.",
+    "answer": "1) يزداد طوله في الصيف"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) حاسة التذوق لدى الفراشات موجودة في أجنحتها.\n(Butterflies have their sense of taste in their wings.)\n\n2) حاسة التذوق لدى الفراشات موجودة في أقدامها.\n(Butterflies have their sense of taste in their feet.)",
-    "answer": "2) تتذوق بأقدامها (Taste with their feet)"
+    "question": "أيهما حقيقة؟\n\n1) حاسة التذوق لدى الفراشات موجودة في أجنحتها.\n\n2) حاسة التذوق لدى الفراشات موجودة في أقدامها.",
+    "answer": "2) تتذوق بأقدامها"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) التفاح يمنحك طاقة للبقاء مستيقظاً في الصباح أفضل من فنجان القهوة.\n(Apples give you more energy to wake up in the morning than a cup of coffee.)\n\n2) التفاح يجعلك تشعر بالنعاس بسبب احتوائه على مادة الميلاتونين.\n(Apples make you sleepy because they contain melatonin.)",
-    "answer": "1) التفاح يعطي طاقة أفضل (Apples give more energy)"
+    "question": "أيهما حقيقة؟\n\n1) التفاح يمنحك طاقة للبقاء مستيقظاً في الصباح أفضل من فنجان القهوة.\n\n2) التفاح يجعلك تشعر بالنعاس بسبب احتوائه على مادة الميلاتونين.",
+    "answer": "1) التفاح يعطي طاقة أفضل"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الزرافة لديها 7 فقرات في رقبتها، تماماً مثل الإنسان.\n(A giraffe has 7 neck vertebrae, exactly the same as a human.)\n\n2) الزرافة لديها 24 فقرة في رقبتها الطويلة.\n(A giraffe has 24 vertebrae in its long neck.)",
-    "answer": "1) لديها 7 فقرات فقط (It only has 7 vertebrae)"
+    "question": "أيهما حقيقة؟\n\n1) الزرافة لديها 7 فقرات في رقبتها، تماماً مثل الإنسان.\n\n2) الزرافة لديها 24 فقرة في رقبتها الطويلة.",
+    "answer": "1) لديها 7 فقرات فقط"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) إذا قطعت دودة الأرض نصفين، ستتحول إلى دودة واحدة ميتة والنصف الآخر ينمو.\n(If you cut an earthworm in half, one half dies and the other grows back.)\n\n2) إذا قطعت دودة الأرض نصفين، سيتحول كل نصف إلى دودة جديدة ومستقلة تماماً.\n(If you cut an earthworm in half, both halves become two independent worms.)",
-    "answer": "1) جزء واحد ينمو والجزء الآخر يموت (Only one half survives and regenerates)"
+    "question": "أيهما حقيقة؟\n\n1) إذا قطعت دودة الأرض نصفين، ستتحول إلى دودة واحدة ميتة والنصف الآخر ينمو.\n\n2) إذا قطعت دودة الأرض نصفين، سيتحول كل نصف إلى دودة جديدة ومستقلة تماماً.",
+    "answer": "1) جزء واحد ينمو والجزء الآخر يموت"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الأناناس يحتاج لحوالي شهرين لينمو بالكامل.\n(Pineapples take about 2 months to fully grow.)\n\n2) الأناناس يحتاج لسنتين إلى ثلاث سنوات لينمو بالكامل.\n(Pineapples take 2 to 3 years to fully grow.)",
-    "answer": "2) يحتاج لسنتين أو ثلاث سنوات (Takes 2 to 3 years)"
+    "question": "أيهما حقيقة؟\n\n1) الأناناس يحتاج لحوالي شهرين لينمو بالكامل.\n\n2) الأناناس يحتاج لسنتين إلى ثلاث سنوات لينمو بالكامل.",
+    "answer": "2) يحتاج لسنتين أو ثلاث سنوات"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) بصمة لسان الإنسان فريدة ولا تتطابق مع أي شخص آخر، تماماً كبصمة الإصبع.\n(A human's tongue print is entirely unique, just like a fingerprint.)\n\n2) بصمات اللسان متشابهة جداً بين أفراد العائلة الواحدة.\n(Tongue prints are very similar among family members.)",
-    "answer": "1) بصمة اللسان فريدة من نوعها (Tongue prints are unique)"
+    "question": "أيهما حقيقة؟\n\n1) بصمة لسان الإنسان فريدة ولا تتطابق مع أي شخص آخر، تماماً كبصمة الإصبع.\n\n2) بصمات اللسان متشابهة جداً بين أفراد العائلة الواحدة.",
+    "answer": "1) بصمة اللسان فريدة من نوعها"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) الكواكب لا تصدر صوتاً في الفضاء لأن الصوت لا ينتقل في الفراغ.\n(Planets make no sound in space because sound doesn't travel in a vacuum.)\n\n2) يمكن سماع أصوات الكواكب بوضوح في الفضاء إذا كنت قريباً منها.\n(Planet sounds can be heard clearly in space if you are close enough.)",
-    "answer": "1) الصوت لا ينتقل في الفراغ (Sound doesn't travel in a vacuum)"
+    "question": "أيهما حقيقة؟\n\n1) الكواكب لا تصدر صوتاً في الفضاء لأن الصوت لا ينتقل في الفراغ.\n\n2) يمكن سماع أصوات الكواكب بوضوح في الفضاء إذا كنت قريباً منها.",
+    "answer": "1) الصوت لا ينتقل في الفراغ"
   },
   {
-    "question": "أيهما حقيقة؟\n(Which is true?)\n\n1) القطط تموء لبعضها البعض للتواصل.\n(Cats meow at each other to communicate.)\n\n2) القطط البالغة تموء للبشر فقط ولا تموء لبعضها البعض.\n(Adult cats only meow at humans, they do not meow at each other.)",
-    "answer": "2) تموء للبشر فقط (They only meow at humans)"
+    "question": "أيهما حقيقة؟\n\n1) القطط تموء لبعضها البعض للتواصل.\n\n2) القطط البالغة تموء للبشر فقط ولا تموء لبعضها البعض.",
+    "answer": "2) تموء للبشر فقط"
   }
 ]

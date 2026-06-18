@@ -2,7 +2,7 @@
   "id": "star-link",
   "engineTemplate": "turn-based",
   "mode": "individual",
-  "title": "رابط النجوم (Star Link)",
+  "title": "رابط النجوم",
   "author": "Imhotep Tech",
   "hasTimer": true,
   "defaultTimerSeconds": 15,
@@ -10,7 +10,7 @@
   "allowElimination": false,
   "themeColor": "#eab308",
   "logo": "⭐",
-  "instructions": "هل تملك ما يلزم لربط النجوم ببعضها؟\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب (النسخة الرقمية):\n1. سيظهر اسم ممثل أو فيلم على الشاشة.\n2. الجميع يلعب في نفس الوقت! كن أول من يصرخ برابط حقيقي: (إذا كان الممثل، اذكر فيلماً له. وإذا كان فيلماً، اذكر ممثلاً فيه).\n3. من يجد الرابط الصحيح أولاً يكسب النقطة وتنتقلون للبطاقة التالية!\n\nGot what it takes to connect the stars?\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play (Digital Version):\n1. An actor or movie will appear on the screen.\n2. Everyone plays at the same time! Be the first to shout a real connection (a movie they were in, or an actor from that movie).\n3. The first to connect them wins the point!",
+  "instructions": "هل تملك ما يلزم لربط النجوم ببعضها؟\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب (النسخة الرقمية):\n1. سيظهر اسم ممثل أو فيلم على الشاشة.\n2. الجميع يلعب في نفس الوقت! كن أول من يصرخ برابط حقيقي: (إذا كان الممثل، اذكر فيلماً له. وإذا كان فيلماً، اذكر ممثلاً فيه).\n3. من يجد الرابط الصحيح أولاً يكسب النقطة وتنتقلون للبطاقة التالية!",
   "turnStrategy": "open",
   "allowPass": true,
   "cardsFile": "star-link-cards.json"

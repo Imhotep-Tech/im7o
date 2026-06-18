@@ -2,7 +2,7 @@
   "id": "majority-rules",
   "engineTemplate": "turn-based",
   "mode": "individual",
-  "title": "رأي الأغلبية (Majority Rules)",
+  "title": "رأي الأغلبية",
   "author": "Imhotep Tech",
   "hasTimer": false,
   "defaultTimerSeconds": 0,
@@ -10,7 +10,7 @@
   "allowElimination": false,
   "themeColor": "#14b8a6",
   "logo": "⚖️",
-  "instructions": "هل تعرف كيف يفكر أصدقاؤك؟\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +3\n\nكيفية اللعب:\n1. في دورك، اقرأ سؤال (لو خيروك) المكتوب على الشاشة بصوت عالٍ.\n2. قبل أن يصوت أحد، خمن بصوت عالٍ: أي خيار ستختاره أغلبية الغرفة؟\n3. بمجرد أن تخمن، يرفع الجميع أيديهم للتصويت للخيار الأول، أو يخفضونها للخيار الثاني.\n4. إذا كان تخمينك للأغلبية صحيحاً، اضغط (+1) لتكسب النقطة!\n\nReady to stir the pot with some controversial topics?\n\nAge: 9+ | Time: 20+ mins | Players: 3+\n\nHow to play:\n1. On your turn, read the 'Would You Rather' question out loud.\n2. Before anyone votes, guess which option the MAJORITY of the room will choose.\n3. Everyone votes by raising their hand for option 1, or keeping it down for option 2.\n4. If your guess matched the majority, you win the point! (+1)",
+  "instructions": "هل تعرف كيف يفكر أصدقاؤك؟\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +3\n\nكيفية اللعب:\n1. في دورك، اقرأ سؤال (لو خيروك) المكتوب على الشاشة بصوت عالٍ.\n2. قبل أن يصوت أحد، خمن بصوت عالٍ: أي خيار ستختاره أغلبية الغرفة؟\n3. بمجرد أن تخمن، يرفع الجميع أيديهم للتصويت للخيار الأول، أو يخفضونها للخيار الثاني.\n4. إذا كان تخمينك للأغلبية صحيحاً، اضغط (+1) لتكسب النقطة!",
   "turnStrategy": "sequential",
   "allowPass": true,
   "cardsFile": "majority-rules-cards.json"

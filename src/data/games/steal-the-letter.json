@@ -2,7 +2,7 @@
   "id": "steal-the-letter",
   "engineTemplate": "turn-based",
   "mode": "individual",
-  "title": "اسرق الحرف (Steal the Letter)",
+  "title": "اسرق الحرف",
   "author": "Imhotep Tech",
   "hasTimer": true,
   "defaultTimerSeconds": 15,
@@ -10,7 +10,7 @@
   "allowElimination": false,
   "themeColor": "#f97316",
   "logo": "🔤",
-  "instructions": "شاهد الحرف. قل الكلمة. اسرق الفوز!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. في كل جولة، سيظهر على الشاشة حرف وتصنيف معين.\n2. الجميع يلعب في نفس الوقت! يجب أن تصرخ بكلمة تطابق التصنيف وتبدأ بهذا الحرف قبل أي شخص آخر.\n3. أسرع شخص يذكر الكلمة الصحيحة يربح الجولة ويكسب النقطة.\n4. جمع أكبر عدد من النقاط لتفوز باللعبة!\n\nSee the letter. Say the word. Steal the win.\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. Each round displays a letter and a category on the screen.\n2. Everyone plays at the same time! Shout out a word that matches the category and starts with that letter before anyone else.\n3. The fastest correct answer wins the point!\n4. Collect the most points to win the game!",
+  "instructions": "شاهد الحرف. قل الكلمة. اسرق الفوز!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. في كل جولة، سيظهر على الشاشة حرف وتصنيف معين.\n2. الجميع يلعب في نفس الوقت! يجب أن تصرخ بكلمة تطابق التصنيف وتبدأ بهذا الحرف قبل أي شخص آخر.\n3. أسرع شخص يذكر الكلمة الصحيحة يربح الجولة ويكسب النقطة.\n4. جمع أكبر عدد من النقاط لتفوز باللعبة!",
   "turnStrategy": "open",
   "allowPass": true,
   "cardsFile": "steal-the-letter-cards.json"

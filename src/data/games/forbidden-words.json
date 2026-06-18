@@ -2,7 +2,7 @@
   "id": "forbidden-words",
   "engineTemplate": "taboo",
   "mode": "two-team",
-  "title": "الكلمات الممنوعة (Forbidden Words)",
+  "title": "الكلمات الممنوعة",
   "author": "Imhotep Tech",
   "hasTimer": true,
   "defaultTimerSeconds": 60,
@@ -10,7 +10,7 @@
   "allowElimination": false,
   "themeColor": "#8b5cf6",
   "logo": "🤐",
-  "instructions": "الكلمات الأسهل هي الأخطر!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. انقسموا إلى فريقين.\n2. هدفك هو شرح (الكلمة الرئيسية) لفريقك بأي طريقة ممكنة.\n3. التحدي: يُمنع منعاً باتاً نطق أي من (الكلمات الممنوعة) المكتوبة تحتها!\n4. إذا نطقت كلمة ممنوعة، تخسر الجولة. اختر كلماتك بعناية وفكر بسرعة!\n\nThe easiest words are the most dangerous ones!\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. Split into two teams.\n2. Describe the main word to your team any way you can.\n3. The Trap: You cannot say ANY of the forbidden words listed below it!\n4. If you say a forbidden word, you lose the point. Think fast and explain smart!",
+  "instructions": "الكلمات الأسهل هي الأخطر!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. انقسموا إلى فريقين.\n2. هدفك هو شرح (الكلمة الرئيسية) لفريقك بأي طريقة ممكنة.\n3. التحدي: يُمنع منعاً باتاً نطق أي من (الكلمات الممنوعة) المكتوبة تحتها!\n4. إذا نطقت كلمة ممنوعة، تخسر الجولة. اختر كلماتك بعناية وفكر بسرعة!",
   "turnStrategy": "sequential",
   "allowPass": true,
   "cardsFile": "forbidden-words-cards.json"

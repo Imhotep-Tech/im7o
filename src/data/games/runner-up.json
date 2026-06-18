@@ -2,7 +2,7 @@
   "id": "runner-up",
   "engineTemplate": "mcq",
   "mode": "individual",
-  "title": "المركز الثاني (The Runner-Up)",
+  "title": "المركز الثاني",
   "author": "Imhotep Tech",
   "hasTimer": true,
   "defaultTimerSeconds": 30,
@@ -10,7 +10,7 @@
   "allowElimination": false,
   "themeColor": "#3b82f6",
   "logo": "🥈",
-  "instructions": "من قال أن المركز الأول يفوز دائماً؟\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. ستظهر لك معلومة أو تصنيف على الشاشة.\n2. مهمتك هي تخمين من يحتل (المركز الثاني) وليس الأول!\n3. أول من يصرخ بالإجابة الصحيحة للمركز الثاني يكسب النقطة.\n4. استعد للصدمة وقول: كيف لا يكون هذا رقم واحد؟!\n\nWho said first place always wins?\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. A ranking or category will appear on the screen.\n2. Your mission is to guess the answer that ranks SECOND, not first!\n3. The first to guess the runner-up correctly wins the point.\n4. Get ready to say: 'Wait... how is this NOT number one?!'",
+  "instructions": "من قال أن المركز الأول يفوز دائماً؟\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. ستظهر لك معلومة أو تصنيف على الشاشة.\n2. مهمتك هي تخمين من يحتل (المركز الثاني) وليس الأول!\n3. أول من يصرخ بالإجابة الصحيحة للمركز الثاني يكسب النقطة.\n4. استعد للصدمة وقول: كيف لا يكون هذا رقم واحد؟!",
   "turnStrategy": "open",
   "allowPass": true,
   "cardsFile": "runner-up-cards.json"

@@ -2,7 +2,7 @@
   "id": "word-auction",
   "engineTemplate": "turn-based",
   "mode": "individual",
-  "title": "مزاد الكلمات (Word Auction)",
+  "title": "مزاد الكلمات",
   "author": "Imhotep Tech",
   "hasTimer": true,
   "defaultTimerSeconds": 60,
@@ -10,7 +10,7 @@
   "allowElimination": false,
   "themeColor": "#3b82f6",
   "logo": "💰",
-  "instructions": "لمن يجرؤ على التحدي والمزايدة!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. سيظهر تصنيف على الشاشة (مثال: ألوان، دول، علامات تجارية).\n2. يبدأ كل لاعب/فريق بالمزايدة والتحدي برقم يمثل عدد الأشياء التي يمكنه ذكرها من هذا التصنيف.\n3. اللاعب الذي يقدم أعلى مزايدة (أكبر رقم) يربح المزاد وعليه أن يثبت كلامه!\n4. يبدأ العداد، ويجب عليه ذكر العدد الذي زايد به قبل انتهاء الوقت.\n5. إن نجح يأخذ النقطة، وإن فشل يمكن خصم نقطة منه!\n\nFor the bold and competitive!\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. A topic will appear on the screen.\n2. Players bid on how many examples they can name for that topic.\n3. The highest bidder wins the auction and plays!\n4. Start the timer! They must name the number they bid before time runs out.\n5. If they succeed, they score a point!",
+  "instructions": "لمن يجرؤ على التحدي والمزايدة!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. سيظهر تصنيف على الشاشة (مثال: ألوان، دول، علامات تجارية).\n2. يبدأ كل لاعب/فريق بالمزايدة والتحدي برقم يمثل عدد الأشياء التي يمكنه ذكرها من هذا التصنيف.\n3. اللاعب الذي يقدم أعلى مزايدة (أكبر رقم) يربح المزاد وعليه أن يثبت كلامه!\n4. يبدأ العداد، ويجب عليه ذكر العدد الذي زايد به قبل انتهاء الوقت.\n5. إن نجح يأخذ النقطة، وإن فشل يمكن خصم نقطة منه!",
   "turnStrategy": "open",
   "allowPass": true,
   "cardsFile": "word-auction-cards.json"

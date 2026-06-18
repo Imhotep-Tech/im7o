@@ -6,8 +6,12 @@ export default function CreatorDashboard() {
   const [submissions, setSubmissions] = useState<any[]>([]);
   const [hasPending, setHasPending] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [gamesList, setGamesList] = useState<any[]>([]);
 
   // Form states
+  const [isExtension, setIsExtension] = useState(false);
+  const [targetGameId, setTargetGameId] = useState('');
+  
   const [packName, setPackName] = useState('');
   const [authorName, setAuthorName] = useState('');
   const [engineTemplate, setEngineTemplate] = useState('hot-potato');
@@ -41,6 +45,11 @@ export default function CreatorDashboard() {
           .catch(() => {});
       })
       .catch(() => {});
+
+    fetch('/api/games')
+      .then(res => res.json())
+      .then(data => setGamesList(data))
+      .catch(() => {});
   }, []);
 
   const handleAddCard = () => {
@@ -66,16 +75,20 @@ export default function CreatorDashboard() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (isExtension && !targetGameId) {
+      alert("يرجى اختيار اللعبة التي تريد إضافة البطاقات إليها");
+      return;
+    }
+
     const filteredCards = cards.filter((c: any) => {
       if (engineTemplate === 'mcq') return c?.question?.trim() && c?.answer?.trim();
       if (engineTemplate === 'taboo') return c?.word?.trim() && c?.forbidden?.trim();
       return typeof c === 'string' && c.trim() !== '';
     });
     
-    // Generate a simple ID from packName
     const safeId = packName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '') || 'custom-game';
 
-    const payload = {
+    const payload = isExtension ? filteredCards : {
       id: safeId,
       title: packName,
       author: authorName,
@@ -92,15 +105,19 @@ export default function CreatorDashboard() {
       cards: filteredCards
     };
 
+    const targetGameTitle = isExtension ? (gamesList.find(g => g.id === targetGameId)?.title || targetGameId) : packName;
+
     try {
       const res = await fetch('http://localhost:8000/api/creator/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         credentials: 'include',
         body: JSON.stringify({
-          game_title: packName,
-          game_type: mode,
-          json_payload: JSON.stringify(payload, null, 2)
+          game_title: isExtension ? `إضافة بطاقات لـ ${targetGameTitle}` : packName,
+          game_type: isExtension ? 'extension' : mode,
+          json_payload: JSON.stringify(payload, null, 2),
+          is_extension: isExtension,
+          target_game_id: isExtension ? targetGameId : null
         })
       });
       if (res.ok) {
@@ -169,106 +186,145 @@ export default function CreatorDashboard() {
             <h2 className="text-2xl font-bold mb-6 text-white">إضافة حزمة ألعاب جديدة</h2>
             <form onSubmit={handleSubmit} className="space-y-8">
               
-              {/* Basic Info */}
-              <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-6">
-                <h3 className="text-lg font-bold text-indigo-400">المعلومات الأساسية</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-slate-400 mb-2">اسم اللعبة / الحزمة</label>
-                    <input type="text" value={packName} onChange={e => setPackName(e.target.value)} required className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-slate-400 mb-2">اسم الصانع</label>
-                    <input type="text" value={authorName} onChange={e => setAuthorName(e.target.value)} required className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" />
-                  </div>
-                </div>
-                
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-slate-400 mb-2">نوع المحرك (Engine Template)</label>
-                    <select value={engineTemplate} onChange={e => setEngineTemplate(e.target.value)} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition">
-                      <option value="hot-potato">البطاطس الساخنة (Hot Potato)</option>
-                      <option value="classic">كلاسيكي دوري (Classic)</option>
-                      <option value="mcq">سؤال وجواب (MCQ/Trivia)</option>
-                      <option value="taboo">كلمات ممنوعة (Taboo)</option>
-                      <option value="imposter">الجاسوس (Spy/Imposter)</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-slate-400 mb-2">نمط اللعب (Mode)</label>
-                    <select value={mode} onChange={e => setMode(e.target.value)} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition">
-                      <option value="multi-team">فرق متعددة (Multi-team)</option>
-                      <option value="individual">فردي (Individual)</option>
-                    </select>
-                  </div>
-                </div>
-                
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-slate-400 mb-2">لون السمة (Theme Color)</label>
-                    <div className="flex items-center gap-3">
-                      <input type="color" value={themeColor} onChange={e => setThemeColor(e.target.value)} className="h-12 w-12 rounded cursor-pointer bg-slate-900 border border-slate-700" />
-                      <span className="text-slate-300 font-mono">{themeColor}</span>
-                    </div>
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-slate-400 mb-2">الأيقونة (إيموجي)</label>
-                    <input type="text" value={logo} onChange={e => setLogo(e.target.value)} placeholder="مثال: 💣 (اضغط Win + . لإظهار الإيموجي)" maxLength={5} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white text-2xl text-center focus:ring-2 focus:ring-indigo-500 outline-none transition" />
-                  </div>
-                </div>
-                
-                <div>
-                  <label className="block text-sm font-medium text-slate-400 mb-2">إرشادات اللعب (Instructions)</label>
-                  <textarea value={instructions} onChange={e => setInstructions(e.target.value)} rows={4} placeholder="اكتب تعليمات وشروط اللعبة هنا..." className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition"></textarea>
-                </div>
-              </div>
-
-              {/* Game Settings */}
-              <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-6">
-                <h3 className="text-lg font-bold text-indigo-400">إعدادات اللعب</h3>
-                
-                <div className="flex items-center justify-between p-4 bg-slate-900 rounded-lg border border-slate-800">
-                  <span className="text-slate-300 font-medium">هل تحتوي على عداد وقت؟ (hasTimer)</span>
+              <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-4">
+                <div className="flex items-center justify-between">
+                  <span className="text-slate-300 font-medium text-lg">هل تريد إضافة بطاقات للعبة موجودة مسبقاً؟ (Extension Pack)</span>
                   <label className="relative inline-flex items-center cursor-pointer">
-                    <input type="checkbox" checked={hasTimer} onChange={e => setHasTimer(e.target.checked)} className="sr-only peer" />
+                    <input type="checkbox" checked={isExtension} onChange={e => setIsExtension(e.target.checked)} className="sr-only peer" />
                     <div className="w-11 h-6 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-500"></div>
                   </label>
                 </div>
-                
-                {hasTimer && (
-                  <div className="flex flex-col sm:flex-row gap-6 p-4 bg-slate-900/50 rounded-lg border border-slate-800/50">
-                    <div className="flex-1">
-                      <label className="block text-sm font-medium text-slate-400 mb-2">الوقت الافتراضي بالثواني</label>
-                      <input type="number" value={defaultTimerSeconds} onChange={e => setDefaultTimerSeconds(Number(e.target.value))} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" />
+
+                {isExtension && (
+                  <div className="mt-4">
+                    <label className="block text-sm font-medium text-slate-400 mb-2">اختر اللعبة</label>
+                    <select 
+                      value={targetGameId} 
+                      onChange={e => {
+                        setTargetGameId(e.target.value);
+                        const selectedGame = gamesList.find(g => g.id === e.target.value);
+                        if (selectedGame) {
+                          setEngineTemplate(selectedGame.engineTemplate || 'hot-potato');
+                          if (selectedGame.engineTemplate === 'mcq') setCards([{ question: '', answer: '' }]);
+                          else if (selectedGame.engineTemplate === 'taboo') setCards([{ word: '', forbidden: '' }]);
+                          else setCards(['']);
+                        }
+                      }} 
+                      className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition"
+                      required
+                    >
+                      <option value="" disabled>-- اختر لعبة --</option>
+                      {gamesList.map(g => (
+                        <option key={g.id} value={g.id}>{g.title}</option>
+                      ))}
+                    </select>
+                  </div>
+                )}
+              </div>
+
+              {!isExtension && (
+                <>
+                  <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-6">
+                    <h3 className="text-lg font-bold text-indigo-400">المعلومات الأساسية</h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                      <div>
+                        <label className="block text-sm font-medium text-slate-400 mb-2">اسم اللعبة / الحزمة</label>
+                        <input type="text" value={packName} onChange={e => setPackName(e.target.value)} required={!isExtension} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" />
+                      </div>
+                      <div>
+                        <label className="block text-sm font-medium text-slate-400 mb-2">اسم الصانع</label>
+                        <input type="text" value={authorName} onChange={e => setAuthorName(e.target.value)} required={!isExtension} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" />
+                      </div>
                     </div>
-                    <div className="flex-1 flex flex-col justify-center">
-                      <label className="block text-sm font-medium text-slate-400 mb-2">الوقت قابل للتعديل من اللاعبين؟</label>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                      <div>
+                        <label className="block text-sm font-medium text-slate-400 mb-2">نوع المحرك (Engine Template)</label>
+                        <select value={engineTemplate} onChange={e => setEngineTemplate(e.target.value)} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition">
+                          <option value="hot-potato">البطاطس الساخنة (Hot Potato)</option>
+                          <option value="classic">كلاسيكي دوري (Classic)</option>
+                          <option value="mcq">سؤال وجواب (MCQ/Trivia)</option>
+                          <option value="taboo">كلمات ممنوعة (Taboo)</option>
+                          <option value="imposter">الجاسوس (Spy/Imposter)</option>
+                          <option value="turn-based">مبني على الأدوار (Turn-Based)</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label className="block text-sm font-medium text-slate-400 mb-2">نمط اللعب (Mode)</label>
+                        <select value={mode} onChange={e => setMode(e.target.value)} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition">
+                          <option value="multi-team">فرق متعددة (Multi-team)</option>
+                          <option value="individual">فردي (Individual)</option>
+                        </select>
+                      </div>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                      <div>
+                        <label className="block text-sm font-medium text-slate-400 mb-2">لون السمة (Theme Color)</label>
+                        <div className="flex items-center gap-3">
+                          <input type="color" value={themeColor} onChange={e => setThemeColor(e.target.value)} className="h-12 w-12 rounded cursor-pointer bg-slate-900 border border-slate-700" />
+                          <span className="text-slate-300 font-mono">{themeColor}</span>
+                        </div>
+                      </div>
+                      <div>
+                        <label className="block text-sm font-medium text-slate-400 mb-2">الأيقونة (إيموجي)</label>
+                        <input type="text" value={logo} onChange={e => setLogo(e.target.value)} placeholder="مثال: 💣" maxLength={5} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white text-2xl text-center focus:ring-2 focus:ring-indigo-500 outline-none transition" />
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <label className="block text-sm font-medium text-slate-400 mb-2">إرشادات اللعب (Instructions)</label>
+                      <textarea value={instructions} onChange={e => setInstructions(e.target.value)} rows={4} placeholder="اكتب تعليمات وشروط اللعبة هنا..." className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition"></textarea>
+                    </div>
+                  </div>
+
+                  <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-6">
+                    <h3 className="text-lg font-bold text-indigo-400">إعدادات اللعب</h3>
+                    
+                    <div className="flex items-center justify-between p-4 bg-slate-900 rounded-lg border border-slate-800">
+                      <span className="text-slate-300 font-medium">هل تحتوي على عداد وقت؟ (hasTimer)</span>
                       <label className="relative inline-flex items-center cursor-pointer">
-                        <input type="checkbox" checked={isTimerCustomizable} onChange={e => setIsTimerCustomizable(e.target.checked)} className="sr-only peer" />
+                        <input type="checkbox" checked={hasTimer} onChange={e => setHasTimer(e.target.checked)} className="sr-only peer" />
                         <div className="w-11 h-6 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-500"></div>
                       </label>
                     </div>
-                  </div>
-                )}
+                    
+                    {hasTimer && (
+                      <div className="flex flex-col sm:flex-row gap-6 p-4 bg-slate-900/50 rounded-lg border border-slate-800/50">
+                        <div className="flex-1">
+                          <label className="block text-sm font-medium text-slate-400 mb-2">الوقت الافتراضي بالثواني</label>
+                          <input type="number" value={defaultTimerSeconds} onChange={e => setDefaultTimerSeconds(Number(e.target.value))} className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" />
+                        </div>
+                        <div className="flex-1 flex flex-col justify-center">
+                          <label className="block text-sm font-medium text-slate-400 mb-2">الوقت قابل للتعديل من اللاعبين؟</label>
+                          <label className="relative inline-flex items-center cursor-pointer">
+                            <input type="checkbox" checked={isTimerCustomizable} onChange={e => setIsTimerCustomizable(e.target.checked)} className="sr-only peer" />
+                            <div className="w-11 h-6 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-500"></div>
+                          </label>
+                        </div>
+                      </div>
+                    )}
 
-                <div className="flex items-center justify-between p-4 bg-slate-900 rounded-lg border border-slate-800">
-                  <span className="text-slate-300 font-medium">تفعيل نظام الإقصاء (allowElimination)</span>
-                  <label className="relative inline-flex items-center cursor-pointer">
-                    <input type="checkbox" checked={allowElimination} onChange={e => setAllowElimination(e.target.checked)} className="sr-only peer" />
-                    <div className="w-11 h-6 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-500"></div>
-                  </label>
-                </div>
+                    <div className="flex items-center justify-between p-4 bg-slate-900 rounded-lg border border-slate-800">
+                      <span className="text-slate-300 font-medium">تفعيل نظام الإقصاء (allowElimination)</span>
+                      <label className="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" checked={allowElimination} onChange={e => setAllowElimination(e.target.checked)} className="sr-only peer" />
+                        <div className="w-11 h-6 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-500"></div>
+                      </label>
+                    </div>
 
-                {['classic', 'mcq', 'taboo'].includes(engineTemplate) && (
-                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 bg-slate-900 rounded-lg border border-slate-800 gap-4">
-                    <span className="text-slate-300 font-medium">نظام الإجابة (Turn Strategy)</span>
-                    <select value={turnStrategy} onChange={e => setTurnStrategy(e.target.value)} className="p-3 w-full sm:w-auto bg-slate-950 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition">
-                      <option value="sequential">بالدور (شخص/فريق محدد يجيب)</option>
-                      <option value="open">مفتوح (الأسرع يجيب ويأخذ النقطة)</option>
-                    </select>
+                    {['classic', 'mcq', 'taboo', 'turn-based'].includes(engineTemplate) && (
+                      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 bg-slate-900 rounded-lg border border-slate-800 gap-4">
+                        <span className="text-slate-300 font-medium">نظام الإجابة (Turn Strategy)</span>
+                        <select value={turnStrategy} onChange={e => setTurnStrategy(e.target.value)} className="p-3 w-full sm:w-auto bg-slate-950 border border-slate-700 rounded-xl text-white focus:ring-2 focus:ring-indigo-500 outline-none transition">
+                          <option value="sequential">بالدور (شخص/فريق محدد يجيب)</option>
+                          <option value="open">مفتوح (الأسرع يجيب ويأخذ النقطة)</option>
+                        </select>
+                      </div>
+                    )}
                   </div>
-                )}
-              </div>
+                </>
+              )}
 
               {/* Cards Builder */}
               <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-4">
@@ -310,7 +366,7 @@ export default function CreatorDashboard() {
                 </button>
               </div>
 
-              <button type="submit" className="w-full py-5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl font-bold text-xl hover:shadow-indigo-500/25 hover:shadow-2xl hover:-translate-y-1 transition-all">إرسال الحزمة للمراجعة</button>
+              <button type="submit" className="w-full py-5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl font-bold text-xl hover:shadow-indigo-500/25 hover:shadow-2xl hover:-translate-y-1 transition-all">إرسال للمراجعة</button>
             </form>
           </div>
         )}

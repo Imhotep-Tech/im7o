@@ -2,7 +2,7 @@
   "id": "hidden-rule",
   "engineTemplate": "turn-based",
   "mode": "individual",
-  "title": "النمط السري (The Secret Pattern)",
+  "title": "النمط السري",
   "author": "Imhotep Tech",
   "hasTimer": true,
   "defaultTimerSeconds": 300,
@@ -10,7 +10,7 @@
   "allowElimination": false,
   "themeColor": "#a855f7",
   "logo": "🧠",
-  "instructions": "لعبة الاستنتاج والأنماط السرية للمجموعات!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +3\n\nكيفية اللعب:\n1. يخرج لاعب واحد من الغرفة (المحقق).\n2. يقرأ باقي اللاعبين (القاعدة السرية) من التطبيق.\n3. يعود المحقق ويبدأ بطرح أسئلة عشوائية على اللاعبين.\n4. يجب على اللاعبين الإجابة وفقاً للقاعدة السرية دون كشفها مباشرة.\n5. هل يستطيع المحقق اكتشاف القاعدة قبل انتهاء الوقت؟ امنحه نقطة إذا نجح!\n\nThe deduction and secret patterns game!\n\nAge: 9+ | Time: 20+ mins | Players: 3+\n\nHow to play:\n1. One player leaves the room (The Detective).\n2. The rest of the players read the (Secret Rule) from the app.\n3. The Detective returns and asks random questions to the players.\n4. Players must answer according to the secret rule without explicitly stating it.\n5. Can the Detective figure out the rule before time runs out? Give them a point if they do!",
+  "instructions": "لعبة الاستنتاج والأنماط السرية للمجموعات!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +3\n\nكيفية اللعب:\n1. يخرج لاعب واحد من الغرفة (المحقق).\n2. يقرأ باقي اللاعبين (القاعدة السرية) من التطبيق.\n3. يعود المحقق ويبدأ بطرح أسئلة عشوائية على اللاعبين.\n4. يجب على اللاعبين الإجابة وفقاً للقاعدة السرية دون كشفها مباشرة.\n5. هل يستطيع المحقق اكتشاف القاعدة قبل انتهاء الوقت؟ امنحه نقطة إذا نجح!",
   "turnStrategy": "open",
   "allowPass": true,
   "cardsFile": "hidden-rule-cards.json"

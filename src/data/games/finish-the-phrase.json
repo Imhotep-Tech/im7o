@@ -2,7 +2,7 @@
   "id": "finish-the-phrase",
   "engineTemplate": "mcq",
   "mode": "individual",
-  "title": "كمل الجملة (Finish the Phrase)",
+  "title": "كمل الجملة",
   "author": "Imhotep Tech",
   "hasTimer": true,
   "defaultTimerSeconds": 20,
@@ -10,7 +10,7 @@
   "allowElimination": false,
   "themeColor": "#ec4899",
   "logo": "💬",
-  "instructions": "أكمل الجملة قبل أي شخص آخر!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. كل بطاقة تحتوي على جملة غير مكتملة (قد تكون مقولة شهيرة، أغنية، سطر من فيلم، أو تريند).\n2. اقرأ الجملة بصوت عالٍ.\n3. يجب على اللاعبين التفكير بسرعة والصراخ بتكملة الجملة الصحيحة!\n4. أول شخص يكمل الجملة بشكل صحيح يكسب النقطة.\n5. اضغط على (إظهار الإجابة) للتأكد من التكملة الصحيحة.\n\nFinish the sentence before everyone else does!\n\nAge: 9+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. Every card has an unfinished sentence (a famous quote, song lyric, movie line, or viral trend).\n2. Read it out loud.\n3. Players must shout the rest of the sentence as fast as they can.\n4. First to complete it correctly wins the point!\n5. Click (Show Answer) to reveal the correct ending.",
+  "instructions": "أكمل الجملة قبل أي شخص آخر!\n\nالعمر: +9 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. كل بطاقة تحتوي على جملة غير مكتملة (قد تكون مقولة شهيرة، أغنية، سطر من فيلم، أو تريند).\n2. اقرأ الجملة بصوت عالٍ.\n3. يجب على اللاعبين التفكير بسرعة والصراخ بتكملة الجملة الصحيحة!\n4. أول شخص يكمل الجملة بشكل صحيح يكسب النقطة.\n5. اضغط على (إظهار الإجابة) للتأكد من التكملة الصحيحة.",
   "turnStrategy": "open",
   "allowPass": true,
   "cardsFile": "finish-the-phrase-cards.json"
