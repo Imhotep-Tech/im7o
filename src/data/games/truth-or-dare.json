@@ -1,0 +1,17 @@
+{
+  "id": "truth-or-dare",
+  "engineTemplate": "turn-based",
+  "mode": "individual",
+  "title": "حقيقة ولا جرأة (Truth or Dare)",
+  "author": "Imhotep Tech",
+  "hasTimer": false,
+  "defaultTimerSeconds": 0,
+  "isTimerCustomizable": false,
+  "allowElimination": true,
+  "themeColor": "#ef4444",
+  "logo": "🔥",
+  "instructions": "هل تملك الشجاعة لكشف أسرارك أو تنفيذ التحدي؟\n\nالعمر: +13 | المدة: 20+ دقيقة | اللاعبين: +2\n\nكيفية اللعب:\n1. عندما يحين دورك، يجب عليك اختيار (حقيقة) أو (جرأة) قبل قراءة البطاقة.\n2. أو يمكنك رمي عملة معدنية (ملك = حقيقة، كتابة = جرأة) لتحديد مصيرك!\n3. اقرأ خيارك بصوت عالٍ. إذا اخترت حقيقة، أجب بصدق. وإذا اخترت جرأة، نفذ التحدي.\n4. إذا رفضت الإجابة أو تنفيذ التحدي، تخسر الجولة!\n\nUncover juicy truths and conquer daring challenges!\n\nAge: 13+ | Time: 20+ mins | Players: 2+\n\nHow to play:\n1. On your turn, choose 'Truth' or 'Dare'. (Or flip a coin to decide!).\n2. Read your choice out loud.\n3. Answer honestly or do the dare. If you refuse, you get no points!",
+  "turnStrategy": "sequential",
+  "allowPass": false,
+  "cardsFile": "truth-or-dare-cards.json"
+}
