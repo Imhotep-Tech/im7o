@@ -6,6 +6,7 @@ import GameGrid from "@/components/GameGrid";
 import Footer from "@/components/Footer";
 import { BookOpen, Trophy, Sparkles } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
+import Link from "next/link";
 
 export default function DashboardClient({ games }: { games: any[] }) {
   const [splashComplete, setSplashComplete] = useState(false);
@@ -25,9 +26,9 @@ export default function DashboardClient({ games }: { games: any[] }) {
             {t("dashboardTitle")}
           </h1>
           <p className="text-amber-200/70 text-xl font-medium tracking-wide">{t("dashboardSubtitle")}</p>
-          <a href="http://localhost:8000/api/auth/login" className="inline-block mt-10 px-8 py-4 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 font-black text-lg rounded-full shadow-[0_0_30px_-5px_rgba(251,191,36,0.5)] hover:shadow-[0_0_40px_0px_rgba(251,191,36,0.7)] hover:-translate-y-1 transition-all duration-300">
+          <Link href="/creator" className="inline-block mt-10 px-8 py-4 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 font-black text-lg rounded-full shadow-[0_0_30px_-5px_rgba(251,191,36,0.5)] hover:shadow-[0_0_40px_0px_rgba(251,191,36,0.7)] hover:-translate-y-1 transition-all duration-300">
             {t("createGame")}
-          </a>
+          </Link>
         </div>
 
         <GameGrid games={games} />

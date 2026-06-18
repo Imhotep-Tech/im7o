@@ -27,8 +27,7 @@ The project is built using **Next.js (App Router)** and **Tailwind CSS**. The ma
 
 - `/src/app`: Contains the main page routes:
   - `(home)`: The game selection interface.
-  - `/creator`: The Creator Dashboard for submitting games.
-  - `/admin`: The Admin Dashboard to review and approve games.
+  - `/creator`: The Creator Dashboard for learning how to submit games.
   - `/game/[id]`: The main Game Dispatcher (`GameDispatcher`) that renders the appropriate engine.
 - `/src/engines`: Contains the various game Engines that manage the logic for each game type (e.g. `TurnBasedEngine`, `McqEngine`).
 - `/src/components`: Reusable components (e.g. `PortalNav`, `Timer`, `InstructionsModal`).
@@ -45,9 +44,7 @@ If you have an idea for a completely new gameplay style, you can program a new E
 2. **Register the Engine**:
    Open `src/engines/GameDispatcher.tsx`, import your new engine, and add it to the Switch Case based on `config.engineTemplate`.
 3. **Update the Creator Dashboard**:
-   Add the new template to the `engineTemplate` list in `src/app/creator/page.tsx`. If the new engine requires a different card structure (e.g. requires images or 4 options instead of 2), add the necessary fields to handle this format in the UI.
-4. **Update the Admin Dashboard**:
-   Ensure that the Admin Dashboard `src/app/admin/page.tsx` is able to clearly review the cards of the new engine so supervisors can inspect them before approval.
+   If the new engine requires a different card structure (e.g. requires images or 4 options instead of 2), you can update the email generator form in `src/app/creator/page.tsx` to handle this format.
 
 ## 💻 Coding Standards (معايير كتابة الكود)
 

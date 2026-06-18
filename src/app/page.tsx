@@ -89,11 +89,11 @@ export default function LandingPage() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://github.com/Imhotep-Tech/im7o/tree/main/src/data" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-slate-100 text-slate-900 font-bold rounded-xl hover:bg-white transition-colors flex items-center justify-center gap-2">
+              <a href="https://github.com/Imhotep-Tech/im7o/tree/main/docs/CONTRIBUTING-GAMES.md" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-slate-100 text-slate-900 font-bold rounded-xl hover:bg-white transition-colors flex items-center justify-center gap-2">
                 قراءة التوثيق (Docs)
               </a>
               <Link href="/creator" className="px-8 py-4 bg-slate-900 border border-slate-700 text-white font-bold rounded-xl hover:bg-slate-800 transition-colors flex items-center justify-center gap-2">
-                لوحة تحكم الصانع العادية
+                دليل إضافة الألعاب
               </Link>
             </div>
           </div>

@@ -15,7 +15,7 @@ export const translations = {
     teamsTitle: "نظام فرق متقدم",
     teamsDesc: "العب بنظام الفرق، أو التحدي الفردي، فعّل الإقصاء أو أوقفه. تحكم كامل بمجريات الجلسة من خلال واجهة بسيطة.",
     dashboardTitle: "إيمحو",
-    dashboardSubtitle: "اختر أسطورتك وابدأ التحدي 𓋹",
+    dashboardSubtitle: "اختر أسطورتك وابدأ التحدي",
     createGame: "+ أصنع لعبة جديدة",
     guideTitle: "دليلك في عالم إيمحو",
     step1Title: "اختر اللعبة",
